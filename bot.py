@@ -5,7 +5,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Твой токен
-TOKEN = "7665896303:AAHpoXawRhH7ix7NVGXQROecXcV0ksZs3AA"
+import os
+TOKEN = os.environ.get("TOKEN")
 
 # Загрузка пророчеств из JSON-файла
 with open("prophecies.json", "r", encoding="utf-8") as file:
