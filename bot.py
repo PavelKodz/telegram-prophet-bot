@@ -1,13 +1,13 @@
 import json
 import asyncio
 import random
+import os
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# Твой токен
-import os
-
-print("TOKEN:", repr(os.environ.get("TOKEN")))
+# Получение токена из переменной окружения
+TOKEN = os.environ.get("TOKEN")
 
 # Загрузка пророчеств из JSON-файла
 with open("prophecies.json", "r", encoding="utf-8") as file:
@@ -16,21 +16,25 @@ with open("prophecies.json", "r", encoding="utf-8") as file:
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
-        "Добро пожаловал…\n\n"
-        "Ты открыл дверь, за которой слышен _шёпот древних_.\n"
-        "Здесь не дают ответов — здесь раскрываются знамения.\n"
-        "Пророческий бот *Umbrawhisper* — голос сквозь вечность.\n\n"
-        "Воспользуйся командами, чтобы прикоснуться к различным ликам судьбы:\n"
-        "— /философия — для тех, кто ищет суть бытия\n"
-        "— /вдохновение — для тех, кому нужен огонь\n"
-        "— /тьма — если тебе близка бездна\n"
-        "— /булгаков — шепот в стиле великих\n\n"
-        "_Новая функция пророчества по странице и строке скоро пробудится._\n"
-        "Слушай… и помни: каждое слово несёт след.\n"
+        "*Я — Шёпот сквозь века.*\n\n"
+        "Здесь ты найдёшь знамения, забытые временем.\n"
+        "Каждая глава — ключ к твоей внутренней тьме, вдохновению или философии.\n\n"
+        "Новая рукопись пророчеств — страницы, в которых строки скоро пробудятся...\n"
+        "_Слушай. Внимай. Каждый зов несёт след._\n\n"
+        "Выбери, в какой главе искать знамение:"
     )
-    await update.message.reply_text(welcome_text, parse_mode="Markdown")
 
-# Команда /prophecy <глава>
+    keyboard = [
+        [InlineKeyboardButton("Философия", callback_data="философия")],
+        [InlineKeyboardButton("Вдохновение", callback_data="вдохновение")],
+        [InlineKeyboardButton("Тьма", callback_data="тьма")],
+        [InlineKeyboardButton("Булгаков", callback_data="булгаков")]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    await update.message.reply_text(welcome_text, reply_markup=reply_markup, parse_mode="Markdown")
+
+# Команда /prophecy
 async def prophecy(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         topic = context.args[0].lower()
@@ -38,32 +42,29 @@ async def prophecy(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await update.message.reply_text("Такой главы нет. Попробуй: философия, вдохновение, тьма, булгаков.")
             return
 
-        await update.message.reply_text("Оракул взывает к древним записям...")
+        await update.message.reply_text("Оракул ищет знамение...")
         await asyncio.sleep(0.8)
         await update.message.reply_text(random.choice(pages[topic]))
-
     except Exception:
         await update.message.reply_text("Неправильный формат. Напиши, например: /prophecy философия")
 
-# Обработка нажатий на кнопки
+# Обработка нажатия кнопки
 async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
 
-    topic = query.data.lower()
-    if topic not in pages:
-        await query.edit_message_text("Неизвестная глава.")
-        return
+    topic = query.data
+    if topic in pages:
+        await query.message.reply_text("Оракул ищет знамение...")
+        await asyncio.sleep(0.8)
+        await query.message.reply_text(random.choice(pages[topic]))
+    else:
+        await query.message.reply_text("Неизвестная глава.")
 
-    await query.edit_message_text("Оракул ищет знамение...")
-    await asyncio.sleep(0.8)
-    await query.message.reply_text(random.choice(pages[topic]))
-
-# Запуск бота
+# Запуск приложения
 if __name__ == "__main__":
-    print("Бот запущен...")
-
     app = ApplicationBuilder().token(TOKEN).build()
+
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("prophecy", prophecy))
     app.add_handler(CallbackQueryHandler(button_handler))
