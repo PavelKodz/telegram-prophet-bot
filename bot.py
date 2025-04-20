@@ -6,7 +6,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 
 # Твой токен
 import os
-TOKEN = os.environ.get("TOKEN")
+
+print("TOKEN:", repr(os.environ.get("TOKEN")))
 
 # Загрузка пророчеств из JSON-файла
 with open("prophecies.json", "r", encoding="utf-8") as file:
@@ -14,17 +15,20 @@ with open("prophecies.json", "r", encoding="utf-8") as file:
 
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    keyboard = [
-        [InlineKeyboardButton("Философия", callback_data="философия")],
-        [InlineKeyboardButton("Вдохновение", callback_data="вдохновение")],
-        [InlineKeyboardButton("Тьма", callback_data="тьма")],
-        [InlineKeyboardButton("Булгаков", callback_data="булгаков")]
-    ]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text(
-        "Я — Шёпот сквозь века. Выбери, в какой главе искать знамение:",
-        reply_markup=reply_markup
+    welcome_text = (
+        "Добро пожаловал…\n\n"
+        "Ты открыл дверь, за которой слышен _шёпот древних_.\n"
+        "Здесь не дают ответов — здесь раскрываются знамения.\n"
+        "Пророческий бот *Umbrawhisper* — голос сквозь вечность.\n\n"
+        "Воспользуйся командами, чтобы прикоснуться к различным ликам судьбы:\n"
+        "— /философия — для тех, кто ищет суть бытия\n"
+        "— /вдохновение — для тех, кому нужен огонь\n"
+        "— /тьма — если тебе близка бездна\n"
+        "— /булгаков — шепот в стиле великих\n\n"
+        "_Новая функция пророчества по странице и строке скоро пробудится._\n"
+        "Слушай… и помни: каждое слово несёт след.\n"
     )
+    await update.message.reply_text(welcome_text, parse_mode="Markdown")
 
 # Команда /prophecy <глава>
 async def prophecy(update: Update, context: ContextTypes.DEFAULT_TYPE):
