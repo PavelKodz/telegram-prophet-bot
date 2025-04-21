@@ -122,7 +122,7 @@ _Пусть слова откроют путь..._"""
         )
 
 # Запуск
-if name == "__main__":
+if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("resetme", reset_limits))
