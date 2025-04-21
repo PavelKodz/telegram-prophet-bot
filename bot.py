@@ -1,145 +1,28 @@
-Pavel, [21.04.2025 2:48]
 import json
 import random
 import asyncio
 import os
-import datetime
+from datetime import datetime, timedelta
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# Загружаем токен
 TOKEN = os.environ.get("TOKEN")
 
-# Загружаем пророчества
-with open("prophecies.json", "r", encoding="utf-8") as f:
-    pages = json.load(f)
+# Загрузка пророчеств из файла
+with open("prophecies.json", "r", encoding="utf-8") as file:
+    pages = json.load(file)
 
-# Загружаем карты Таро
-with open("tarot_cards.json", "r", encoding="utf-8") as f:
-    tarot_cards = json.load(f)["tarot"]
-
-# Словари для отслеживания лимитов
+# Хранилище лимитов (в памяти, при перезапуске очищается)
 user_limits = {}
-tarot_limits = {}
+
+# Время блокировки (сутки)
+LIMIT_DURATION = timedelta(hours=24)
 
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
-        "*Я — Шёпот сквозь века.*\n\n"
-        "Ты можешь получить одно знамение из каждой главы и одну карту Таро в сутки.\n"
-        "Выбери путь:"
-    )
-
-    keyboard = [
-        [InlineKeyboardButton("Философия", callback_data="философия")],
-        [InlineKeyboardButton("Вдохновение", callback_data="вдохновение")],
-        [InlineKeyboardButton("Тьма", callback_data="тьма")],
-        [InlineKeyboardButton("Булгаков", callback_data="булгаков")],
-        [InlineKeyboardButton("Карта Таро", callback_data="таро")]
-    ]
-    await update.message.reply_text(welcome_text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode="Markdown")
-
-# Обработка кнопок
-async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.callback_query
-    await query.answer()
-    topic = query.data
-    user_id = str(query.from_user.id)
-    now = datetime.datetime.utcnow()
-    today = now.date()
-
-    # === Таро ===
-    if topic == "таро":
-        last_tarot = tarot_limits.get(user_id)
-        if last_tarot == today:
-            await query.message.reply_text("Карта Таро уже была открыта сегодня. Возвратись завтра.")
-            return
-
-        tarot_limits[user_id] = today
-        card = random.choice(tarot_cards)
-        await query.message.reply_photo(
-            photo=card["image"],
-            caption=f"*{card['name']}*\n{card['description']}",
-            parse_mode="Markdown"
-        )
-        return
-
-    # === Пророчества ===
-    last_used = user_limits.get(user_id, {}).get(topic)
-    if last_used == today:
-        await query.message.reply_text(f"Ты уже получал знамение из главы «{topic.title()}» сегодня.")
-        return
-
-    user_limits.setdefault(user_id, {})[topic] = today
-
-    if topic not in pages:
-        await query.message.reply_text("Такой главы не существует.")
-        return
-
-    await query.message.reply_text("Оракул ищет знамение...")
-    await asyncio.sleep(1)
-    await query.message.reply_text(random.choice(pages[topic]))
-
-# Сброс лимитов для тестов
-async def resetme(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = str(update.effective_user.id)
-    user_limits.pop(user_id, None)
-    tarot_limits.pop(user_id, None)
-    await update.message.reply_text("Все лимиты сброшены.")
-
-# Команда /help
-async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = (
-        "*Как пользоваться Шёпотом сквозь века:*\n"
-        "— Используй /start для выбора главы.\n"
-        "— Доступна 1 карта Таро и 1 знамение по каждой главе в сутки.\n"
-        "— /resetme сбрасывает ограничения (для тестов).\n"
-        "— /help — это ты уже и так знаешь.\n"
-        "_Пусть сужденное отзовётся..._"
-    )
-    await update.message.reply_text(text, parse_mode="Markdown")
-
-# Запуск бота
-if name == "__main__":
-    app = ApplicationBuilder().token(TOKEN).build()
-    app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("resetme", resetme))
-    app.add_handler(CommandHandler("help", help_command))
-    app.add_handler(CallbackQueryHandler(button_handler))
-    app.run_polling()
-
-Pavel, [21.04.2025 2:52]
-import json
-import random
-import asyncio
-import os
-import datetime
-
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
-
-# Токен из переменной окружения
-TOKEN = os.environ.get("TOKEN")
-
-# Загрузка пророчеств
-with open("prophecies.json", "r", encoding="utf-8") as f:
-    pages = json.load(f)
-
-# Загрузка карт Таро
-with open("tarot_cards.json", "r", encoding="utf-8") as f:
-    tarot_cards = json.load(f)["tarot"]
-
-# Словари лимитов
-user_limits = {}
-tarot_limits = {}
-
-# /start
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    welcome_text = (
-        "*Я — Шёпот сквозь века.*\n\n"
-        "Ты можешь получить одно знамение из каждой главы и одну карту Таро в сутки.\n"
-        "Выбери путь:"
+        "Я — Шёпот сквозь века. Выбери, в какой главе искать знамение:"
     )
     keyboard = [
         [InlineKeyboardButton("Философия", callback_data="философия")],
@@ -149,88 +32,64 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("Карта Таро", callback_data="таро")],
         [InlineKeyboardButton("Помощь", callback_data="help")]
     ]
-    await update.message.reply_text(welcome_text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode="Markdown")
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await update.message.reply_text(welcome_text, reply_markup=reply_markup)
 
-# Обработка кнопок
+# Обработка нажатий на кнопки
 async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
     topic = query.data
     user_id = str(query.from_user.id)
-    now = datetime.datetime.utcnow()
-    today = now.date()
 
-    # Помощь
-    if topic == "help":
-        help_text = (
-            "*Как пользоваться Шёпотом сквозь века:*\n"
-            "— Выбери главу и получи пророчество.\n"
-            "— Нажми «Карта Таро» для случайной карты (раз в сутки).\n"
-            "— Команда /resetme сбрасывает лимиты (для тестов).\n"
-            "— Команда /help показывает это объяснение.\n"
-            "_Слушай и внимай знамениям._"
-        )
-        await query.message.reply_text(help_text, parse_mode="Markdown")
-        return
-
-    # Таро
-    if topic == "таро":
-        last_tarot = tarot_limits.get(user_id)
-        if last_tarot == today:
-            await query.message.reply_text("Карта Таро уже была открыта сегодня. Возвратись завтра.")
-            return
-
-        tarot_limits[user_id] = today
-        card = random.choice(tarot_cards)
-        await query.message.reply_photo(
-            photo=card["image"],
-            caption=f"*{card['name']}*\n{card['description']}",
-            parse_mode="Markdown"
-        )
-        return
-
-    # Пророчества
+    now = datetime.now()
     last_used = user_limits.get(user_id, {}).get(topic)
-    if last_used == today:
-        await query.message.reply_text(f"Ты уже получал знамение из главы «{topic.title()}» сегодня.")
-        return
 
-    user_limits.setdefault(user_id, {})[topic] = today
+    if topic == "help":
+        await query.message.reply_text(
+            "*Как пользоваться Шёпотом сквозь века:*
+"
+            "— Нажми /start, чтобы открыть главы
+"
+            "— Нажми на одну из кнопок: _Философия_, _Вдохновение_, _Тьма_, _Булгаков_, _Карта Таро_
+"
+            "— Ты получишь пророчество или карту
+"
+            "⚠️ *Ограничение:* каждую главу можно вызывать раз в 24 часа
+"
+            "_Пусть слова откроют путь..._", parse_mode="Markdown")
+        return
 
     if topic not in pages:
-        await query.message.reply_text("Такой главы не существует.")
+        await query.message.reply_text("Такой главы нет.")
         return
 
-    await query.message.reply_text("Оракул ищет знамение...")
-    await asyncio.sleep(1)
-    await query.message.reply_text(random.choice(pages[topic]))
+    if last_used and now - last_used < LIMIT_DURATION:
+        hours_left = int((LIMIT_DURATION - (now - last_used)).total_seconds() // 3600)
+        await query.message.reply_text(f"Ты уже обращался к этой главе. Попробуй снова через {hours_left} ч.")
+        return
 
-# /resetme — сброс лимитов
-async def resetme(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_limits.setdefault(user_id, {})[topic] = now
+
+    # Таро особый случай
+    if topic == "таро":
+        card = random.choice(pages["таро"])
+        await query.message.reply_photo(photo=card["image"], caption=card["text"])
+    else:
+        await query.message.reply_text(random.choice(pages[topic]))
+
+# Сброс лимитов
+async def reset_limits(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = str(update.effective_user.id)
-    user_limits.pop(user_id, None)
-    tarot_limits.pop(user_id, None)
-    await update.message.reply_text("Все лимиты сброшены.")
+    user_limits[user_id] = {}
+    await update.message.reply_text("Лимиты сброшены.")
 
-# /help — текст
-async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = (
-        "*Как пользоваться Шёпотом сквозь века:*\n"
-        "— Используй /start для выбора главы.\n"
-        "— Доступна 1 карта Таро и 1 знамение по каждой главе в сутки.\n"
-        "— /resetme — сбрасывает ограничения.\n"
-        "_Пусть сужденное отзовётся..._"
-    )
-    await update.message.reply_text(text, parse_mode="Markdown")
-
-# Запуск
+# Основной запуск
 if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
-    app.add_handler(CommandHandler("start", start))
-    app.
 
-Pavel, [21.04.2025 2:52]
-add_handler(CommandHandler("resetme", resetme))
-    app.add_handler(CommandHandler("help", help_command))
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(CommandHandler("resetme", reset_limits))
     app.add_handler(CallbackQueryHandler(button_handler))
+
     app.run_polling()
