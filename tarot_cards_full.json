@@ -1,0 +1,394 @@
+{
+  "tarot": [
+    {
+      "name": "Шут",
+      "description": "Описание карты Шут.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/00/ool/RWS_Tarot_00_Fool.jpg"
+    },
+    {
+      "name": "Маг",
+      "description": "Описание карты Маг.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/01/ian/RWS_Tarot_01_Magician.jpg"
+    },
+    {
+      "name": "Верховная Жрица",
+      "description": "Описание карты Верховная Жрица.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/02/_High_Priestess/RWS_Tarot_02_High_Priestess.jpg"
+    },
+    {
+      "name": "Императрица",
+      "description": "Описание карты Императрица.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/03/03_Empress/RWS_Tarot_03_Empress.jpg"
+    },
+    {
+      "name": "Император",
+      "description": "Описание карты Император.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/04/4_Emperor/RWS_Tarot_04_Emperor.jpg"
+    },
+    {
+      "name": "Иерофант",
+      "description": "Описание карты Иерофант.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/05/erophant/RWS_Tarot_05_Hierophant.jpg"
+    },
+    {
+      "name": "Влюблённые",
+      "description": "Описание карты Влюблённые.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/06/06_Lovers/RWS_Tarot_06_Lovers.jpg"
+    },
+    {
+      "name": "Колесница",
+      "description": "Описание карты Колесница.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/07/7_Chariot/RWS_Tarot_07_Chariot.jpg"
+    },
+    {
+      "name": "Сила",
+      "description": "Описание карты Сила.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/08/ngth/RWS_Tarot_08_Strength.jpg"
+    },
+    {
+      "name": "Отшельник",
+      "description": "Описание карты Отшельник.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/09/09_Hermit/RWS_Tarot_09_Hermit.jpg"
+    },
+    {
+      "name": "Колесо Фортуны",
+      "description": "Описание карты Колесо Фортуны.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/10/eel_of_Fortune/RWS_Tarot_10_Wheel_of_Fortune.jpg"
+    },
+    {
+      "name": "Справедливость",
+      "description": "Описание карты Справедливость.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/11/11_Justice/RWS_Tarot_11_Justice.jpg"
+    },
+    {
+      "name": "Повешенный",
+      "description": "Описание карты Повешенный.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/12/Hanged_Man/RWS_Tarot_12_Hanged_Man.jpg"
+    },
+    {
+      "name": "Смерть",
+      "description": "Описание карты Смерть.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/13/_Death/RWS_Tarot_13_Death.jpg"
+    },
+    {
+      "name": "Умеренность",
+      "description": "Описание карты Умеренность.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/14/_Temperance/RWS_Tarot_14_Temperance.jpg"
+    },
+    {
+      "name": "Дьявол",
+      "description": "Описание карты Дьявол.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/15/_Devil/RWS_Tarot_15_Devil.jpg"
+    },
+    {
+      "name": "Башня",
+      "description": "Описание карты Башня.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/16/Tower/RWS_Tarot_16_Tower.jpg"
+    },
+    {
+      "name": "Звезда",
+      "description": "Описание карты Звезда.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/17/7_Star/RWS_Tarot_17_Star.jpg"
+    },
+    {
+      "name": "Луна",
+      "description": "Описание карты Луна.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/18/Moon/RWS_Tarot_18_Moon.jpg"
+    },
+    {
+      "name": "Солнце",
+      "description": "Описание карты Солнце.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/19/19_Sun/RWS_Tarot_19_Sun.jpg"
+    },
+    {
+      "name": "Страшный суд",
+      "description": "Описание карты Страшный суд.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/20/20_Judgement/RWS_Tarot_20_Judgement.jpg"
+    },
+    {
+      "name": "Мир",
+      "description": "Описание карты Мир.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/21/rld/RWS_Tarot_21_World.jpg"
+    },
+    {
+      "name": "Туз Жезлы",
+      "description": "Описание карты Туз Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Ace_of_Wands.jpg/300px-RWS_Tarot_Ace_of_Wands.jpg"
+    },
+    {
+      "name": "2 Жезлы",
+      "description": "Описание карты 2 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_2_of_Wands.jpg/300px-RWS_Tarot_2_of_Wands.jpg"
+    },
+    {
+      "name": "3 Жезлы",
+      "description": "Описание карты 3 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_3_of_Wands.jpg/300px-RWS_Tarot_3_of_Wands.jpg"
+    },
+    {
+      "name": "4 Жезлы",
+      "description": "Описание карты 4 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_4_of_Wands.jpg/300px-RWS_Tarot_4_of_Wands.jpg"
+    },
+    {
+      "name": "5 Жезлы",
+      "description": "Описание карты 5 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_5_of_Wands.jpg/300px-RWS_Tarot_5_of_Wands.jpg"
+    },
+    {
+      "name": "6 Жезлы",
+      "description": "Описание карты 6 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_6_of_Wands.jpg/300px-RWS_Tarot_6_of_Wands.jpg"
+    },
+    {
+      "name": "7 Жезлы",
+      "description": "Описание карты 7 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_7_of_Wands.jpg/300px-RWS_Tarot_7_of_Wands.jpg"
+    },
+    {
+      "name": "8 Жезлы",
+      "description": "Описание карты 8 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_8_of_Wands.jpg/300px-RWS_Tarot_8_of_Wands.jpg"
+    },
+    {
+      "name": "9 Жезлы",
+      "description": "Описание карты 9 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_9_of_Wands.jpg/300px-RWS_Tarot_9_of_Wands.jpg"
+    },
+    {
+      "name": "10 Жезлы",
+      "description": "Описание карты 10 Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_10_of_Wands.jpg/300px-RWS_Tarot_10_of_Wands.jpg"
+    },
+    {
+      "name": "Паж Жезлы",
+      "description": "Описание карты Паж Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Page_of_Wands.jpg/300px-RWS_Tarot_Page_of_Wands.jpg"
+    },
+    {
+      "name": "Рыцарь Жезлы",
+      "description": "Описание карты Рыцарь Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Knight_of_Wands.jpg/300px-RWS_Tarot_Knight_of_Wands.jpg"
+    },
+    {
+      "name": "Королева Жезлы",
+      "description": "Описание карты Королева Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Queen_of_Wands.jpg/300px-RWS_Tarot_Queen_of_Wands.jpg"
+    },
+    {
+      "name": "Король Жезлы",
+      "description": "Описание карты Король Жезлы.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_King_of_Wands.jpg/300px-RWS_Tarot_King_of_Wands.jpg"
+    },
+    {
+      "name": "Туз Кубки",
+      "description": "Описание карты Туз Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Ace_of_Cups.jpg/300px-RWS_Tarot_Ace_of_Cups.jpg"
+    },
+    {
+      "name": "2 Кубки",
+      "description": "Описание карты 2 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_2_of_Cups.jpg/300px-RWS_Tarot_2_of_Cups.jpg"
+    },
+    {
+      "name": "3 Кубки",
+      "description": "Описание карты 3 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_3_of_Cups.jpg/300px-RWS_Tarot_3_of_Cups.jpg"
+    },
+    {
+      "name": "4 Кубки",
+      "description": "Описание карты 4 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_4_of_Cups.jpg/300px-RWS_Tarot_4_of_Cups.jpg"
+    },
+    {
+      "name": "5 Кубки",
+      "description": "Описание карты 5 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_5_of_Cups.jpg/300px-RWS_Tarot_5_of_Cups.jpg"
+    },
+    {
+      "name": "6 Кубки",
+      "description": "Описание карты 6 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_6_of_Cups.jpg/300px-RWS_Tarot_6_of_Cups.jpg"
+    },
+    {
+      "name": "7 Кубки",
+      "description": "Описание карты 7 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_7_of_Cups.jpg/300px-RWS_Tarot_7_of_Cups.jpg"
+    },
+    {
+      "name": "8 Кубки",
+      "description": "Описание карты 8 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_8_of_Cups.jpg/300px-RWS_Tarot_8_of_Cups.jpg"
+    },
+    {
+      "name": "9 Кубки",
+      "description": "Описание карты 9 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_9_of_Cups.jpg/300px-RWS_Tarot_9_of_Cups.jpg"
+    },
+    {
+      "name": "10 Кубки",
+      "description": "Описание карты 10 Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_10_of_Cups.jpg/300px-RWS_Tarot_10_of_Cups.jpg"
+    },
+    {
+      "name": "Паж Кубки",
+      "description": "Описание карты Паж Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Page_of_Cups.jpg/300px-RWS_Tarot_Page_of_Cups.jpg"
+    },
+    {
+      "name": "Рыцарь Кубки",
+      "description": "Описание карты Рыцарь Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Knight_of_Cups.jpg/300px-RWS_Tarot_Knight_of_Cups.jpg"
+    },
+    {
+      "name": "Королева Кубки",
+      "description": "Описание карты Королева Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Queen_of_Cups.jpg/300px-RWS_Tarot_Queen_of_Cups.jpg"
+    },
+    {
+      "name": "Король Кубки",
+      "description": "Описание карты Король Кубки.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_King_of_Cups.jpg/300px-RWS_Tarot_King_of_Cups.jpg"
+    },
+    {
+      "name": "Туз Мечи",
+      "description": "Описание карты Туз Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Ace_of_Swords.jpg/300px-RWS_Tarot_Ace_of_Swords.jpg"
+    },
+    {
+      "name": "2 Мечи",
+      "description": "Описание карты 2 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_2_of_Swords.jpg/300px-RWS_Tarot_2_of_Swords.jpg"
+    },
+    {
+      "name": "3 Мечи",
+      "description": "Описание карты 3 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_3_of_Swords.jpg/300px-RWS_Tarot_3_of_Swords.jpg"
+    },
+    {
+      "name": "4 Мечи",
+      "description": "Описание карты 4 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_4_of_Swords.jpg/300px-RWS_Tarot_4_of_Swords.jpg"
+    },
+    {
+      "name": "5 Мечи",
+      "description": "Описание карты 5 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_5_of_Swords.jpg/300px-RWS_Tarot_5_of_Swords.jpg"
+    },
+    {
+      "name": "6 Мечи",
+      "description": "Описание карты 6 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_6_of_Swords.jpg/300px-RWS_Tarot_6_of_Swords.jpg"
+    },
+    {
+      "name": "7 Мечи",
+      "description": "Описание карты 7 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_7_of_Swords.jpg/300px-RWS_Tarot_7_of_Swords.jpg"
+    },
+    {
+      "name": "8 Мечи",
+      "description": "Описание карты 8 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_8_of_Swords.jpg/300px-RWS_Tarot_8_of_Swords.jpg"
+    },
+    {
+      "name": "9 Мечи",
+      "description": "Описание карты 9 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_9_of_Swords.jpg/300px-RWS_Tarot_9_of_Swords.jpg"
+    },
+    {
+      "name": "10 Мечи",
+      "description": "Описание карты 10 Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_10_of_Swords.jpg/300px-RWS_Tarot_10_of_Swords.jpg"
+    },
+    {
+      "name": "Паж Мечи",
+      "description": "Описание карты Паж Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Page_of_Swords.jpg/300px-RWS_Tarot_Page_of_Swords.jpg"
+    },
+    {
+      "name": "Рыцарь Мечи",
+      "description": "Описание карты Рыцарь Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Knight_of_Swords.jpg/300px-RWS_Tarot_Knight_of_Swords.jpg"
+    },
+    {
+      "name": "Королева Мечи",
+      "description": "Описание карты Королева Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Queen_of_Swords.jpg/300px-RWS_Tarot_Queen_of_Swords.jpg"
+    },
+    {
+      "name": "Король Мечи",
+      "description": "Описание карты Король Мечи.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_King_of_Swords.jpg/300px-RWS_Tarot_King_of_Swords.jpg"
+    },
+    {
+      "name": "Туз Пентакли",
+      "description": "Описание карты Туз Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Ace_of_Pentacles.jpg/300px-RWS_Tarot_Ace_of_Pentacles.jpg"
+    },
+    {
+      "name": "2 Пентакли",
+      "description": "Описание карты 2 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_2_of_Pentacles.jpg/300px-RWS_Tarot_2_of_Pentacles.jpg"
+    },
+    {
+      "name": "3 Пентакли",
+      "description": "Описание карты 3 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_3_of_Pentacles.jpg/300px-RWS_Tarot_3_of_Pentacles.jpg"
+    },
+    {
+      "name": "4 Пентакли",
+      "description": "Описание карты 4 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_4_of_Pentacles.jpg/300px-RWS_Tarot_4_of_Pentacles.jpg"
+    },
+    {
+      "name": "5 Пентакли",
+      "description": "Описание карты 5 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_5_of_Pentacles.jpg/300px-RWS_Tarot_5_of_Pentacles.jpg"
+    },
+    {
+      "name": "6 Пентакли",
+      "description": "Описание карты 6 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_6_of_Pentacles.jpg/300px-RWS_Tarot_6_of_Pentacles.jpg"
+    },
+    {
+      "name": "7 Пентакли",
+      "description": "Описание карты 7 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_7_of_Pentacles.jpg/300px-RWS_Tarot_7_of_Pentacles.jpg"
+    },
+    {
+      "name": "8 Пентакли",
+      "description": "Описание карты 8 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_8_of_Pentacles.jpg/300px-RWS_Tarot_8_of_Pentacles.jpg"
+    },
+    {
+      "name": "9 Пентакли",
+      "description": "Описание карты 9 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_9_of_Pentacles.jpg/300px-RWS_Tarot_9_of_Pentacles.jpg"
+    },
+    {
+      "name": "10 Пентакли",
+      "description": "Описание карты 10 Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_10_of_Pentacles.jpg/300px-RWS_Tarot_10_of_Pentacles.jpg"
+    },
+    {
+      "name": "Паж Пентакли",
+      "description": "Описание карты Паж Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Page_of_Pentacles.jpg/300px-RWS_Tarot_Page_of_Pentacles.jpg"
+    },
+    {
+      "name": "Рыцарь Пентакли",
+      "description": "Описание карты Рыцарь Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Knight_of_Pentacles.jpg/300px-RWS_Tarot_Knight_of_Pentacles.jpg"
+    },
+    {
+      "name": "Королева Пентакли",
+      "description": "Описание карты Королева Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_Queen_of_Pentacles.jpg/300px-RWS_Tarot_Queen_of_Pentacles.jpg"
+    },
+    {
+      "name": "Король Пентакли",
+      "description": "Описание карты Король Пентакли.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/RWS_Tarot_King_of_Pentacles.jpg/300px-RWS_Tarot_King_of_Pentacles.jpg"
+    }
+  ]
+}
