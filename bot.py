@@ -2,96 +2,81 @@ import json
 import asyncio
 import random
 import os
-import datetime
-
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
+from datetime import datetime, timedelta
 
-# Токен из переменной среды
 TOKEN = os.environ.get("TOKEN")
 
-# Загрузка пророчеств
 with open("prophecies.json", "r", encoding="utf-8") as file:
     pages = json.load(file)
 
-# Файл для хранения информации о пользователях
-USERS_FILE = "users_data.json"
+user_limits = {}
 
-# Загрузка данных пользователя
-def load_users():
-    try:
-        with open(USERS_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {}
-
-# Сохранение данных пользователя
-def save_users(data):
-    with open(USERS_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-
-# Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
-        "*Я — Шёпот сквозь века.*\n\n"
-        "Ты можешь получить одно знамение из каждой главы в сутки.\n"
-        "Выбери тему пророчества:"
+        "Я — *Шёпот сквозь века*. \n"
+        "Выбери, в какой главе искать знамение:\n"
     )
-
     keyboard = [
         [InlineKeyboardButton("Философия", callback_data="философия")],
         [InlineKeyboardButton("Вдохновение", callback_data="вдохновение")],
         [InlineKeyboardButton("Тьма", callback_data="тьма")],
-        [InlineKeyboardButton("Булгаков", callback_data="булгаков")],
+        [InlineKeyboardButton("Булгаков", callback_data="булгаков")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(welcome_text, reply_markup=reply_markup, parse_mode="Markdown")
 
-# Обработка кнопок
+async def prophecy(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    topic = context.args[0].lower() if context.args else None
+    if topic not in pages:
+        await update.message.reply_text("Такой главы нет. Попробуй: философия, вдохновение, тьма, булгаков.")
+        return
+    await update.message.reply_text("Оракул ищет знамение...")
+    await asyncio.sleep(0.8)
+    await update.message.reply_text(random.choice(pages[topic]))
+
 async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
+    topic = query.data
+    user_id = query.from_user.id
+    now = datetime.now()
+    last_used = user_limits.get((user_id, topic))
 
-    topic = query.data.lower()
-    user_id = str(query.from_user.id)
-    today = str(datetime.date.today())
-
-    users = load_users()
-
-    if user_id not in users:
-        users[user_id] = {}
-
-    if topic in users[user_id] and users[user_id][topic] == today:
-        await query.message.reply_text(f"Ты уже получил знамение из главы «{topic.title()}» сегодня. Попробуй завтра.")
+    if last_used and now - last_used < timedelta(days=1):
+        await query.edit_message_text("Ты уже спрашивал это сегодня. Возвращайся завтра.")
         return
 
-    users[user_id][topic] = today
-    save_users(users)
-
-    if topic not in pages:
-        await query.message.reply_text("Такой главы нет.")
-        return
-
-    await query.message.reply_text("Оракул ищет знамение...")
-    await asyncio.sleep(1)
+    user_limits[(user_id, topic)] = now
+    await query.edit_message_text("Оракул ищет знамение...")
+    await asyncio.sleep(0.8)
     await query.message.reply_text(random.choice(pages[topic]))
 
-# Команда /resetme для сброса лимитов (временно)
-async def resetme(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    user_id = str(update.effective_user.id)
-    users = load_users()
+async def reset_limits(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    user_id = update.effective_user.id
+    for key in list(user_limits):
+        if key[0] == user_id:
+            del user_limits[key]
+    await update.message.reply_text("Ограничения сброшены.")
 
-    if user_id in users:
-        del users[user_id]
-        save_users(users)
-        await update.message.reply_text("Все лимиты сброшены. Можешь снова слышать шёпот.")
-    else:
-        await update.message.reply_text("Лимиты не найдены. Ты чист, как слеза.")
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    help_text = (
+        "*Как пользоваться Шёпотом сквозь века:*\n"
+        "— Нажми /start, чтобы открыть главы.\n"
+        "— Нажми на одну из кнопок: _Философия_, _Вдохновение_, _Тьма_, _Булгаков_.\n"
+        "— Ты получишь пророчество из выбранной главы.\n"
+        "⚠️ *Ограничение:* каждую из глав можно выбрать только раз в сутки.\n"
+        "Для тестов доступна команда /resetme.\n"
+        "_Пусть слова откроют путь..._"
+    )
+    await update.message.reply_text(help_text, parse_mode="Markdown")
 
-# Запуск бота
 if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("resetme", resetme))  # Временно для тестов
+    app.add_handler(CommandHandler("prophecy", prophecy))
+    app.add_handler(CommandHandler("resetme", reset_limits))
+    app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CallbackQueryHandler(button_handler))
     app.run_polling()
