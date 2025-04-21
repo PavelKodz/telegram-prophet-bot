@@ -51,7 +51,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "— Нажми на одну из кнопок: _Философия_, _Вдохновение_, _Тьма_, _Булгаков_.\n"
             "— Ты получишь пророчество из выбранной главы.\n"
             "⚠️ *Ограничение:* каждую из глав можно выбрать только раз в сутки.\n"
-            "Для тестов доступна команда /resetme.\n"
+            "Для сброса лимитов временно доступна команда /resetme.\n"
             "_Пусть слова откроют путь..._"
         )
         await query.message.reply_text(help_text, parse_mode="Markdown")
