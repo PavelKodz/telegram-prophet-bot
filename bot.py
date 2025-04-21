@@ -85,14 +85,36 @@ async def send_tarot_card(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
+    await query.answer()
+    user_id = query.from_user.id
+    now = datetime.now()
     data = query.data
 
     if data == "help":
-        await help_command(update, context)
+        help_text = (
+            "*Как пользоваться Шёпотом сквозь века:*\n"
+            "— Нажми /start или кнопку снизу, чтобы выбрать главу.\n"
+            "— Пророчество доступно *раз в сутки* по каждой теме.\n"
+            "— Кнопка 'Карта Таро' выдаёт случайную карту и её значение.\n\n"
+            "_Пусть слова откроют путь..._"
+        )
+        await context.bot.send_message(chat_id=query.message.chat_id, text=help_text, parse_mode="Markdown")
+        return
+
     elif data == "таро":
-        await send_tarot_card(update, context)
-    else:
-        await prophecy(update, context, topic=data)
+        if "таро" in user_limits.get(user_id, {}) and now - user_limits[user_id]["таро"] < timedelta(days=1):
+            await context.bot.send_message(chat_id=query.message.chat_id, text="Оракул молчит. Возвращайся завтра.")
+            return
+
+        card = random.choice(tarot_cards)
+        caption = f"*{card['name']}*\n{card['description']}"
+        user_limits.setdefault(user_id, {})["таро"] = now
+        await context.bot.send_photo(chat_id=query.message.chat_id, photo=card["image"])
+        await context.bot.send_message(chat_id=query.message.chat_id, text=caption, parse_mode="Markdown")
+        return
+
+    # Остальные кнопки — темы пророчеств
+    await prophecy(update, context, topic=data)
 
 if __name__ == "__main__":
     app = ApplicationBuilder().token(TOKEN).build()
