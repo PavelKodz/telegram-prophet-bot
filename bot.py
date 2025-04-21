@@ -2,44 +2,41 @@ import json
 import os
 import random
 from datetime import datetime, timedelta
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 TOKEN = os.environ.get("TOKEN")
 
-# Загружаем пророчества
-with open("prophecies.json", "r", encoding="utf-8") as file:
-    pages = json.load(file)
+# Загрузка данных
+with open("prophecies.json", "r", encoding="utf-8") as f:
+    pages = json.load(f)
 
-# Загружаем карты Таро
-with open("tarot_cards_full.json", "r", encoding="utf-8") as file:
-    tarot_cards = json.load(file)["tarot"]
+with open("tarot_cards_full.json", "r", encoding="utf-8") as f:
+    tarot_cards = json.load(f)["tarot"]
 
-# Храним временные лимиты
 user_limits = {}
 
-# Команда /start
+# /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("Философия", callback_data="Философия")],
         [InlineKeyboardButton("Вдохновение", callback_data="Вдохновение")],
         [InlineKeyboardButton("Тьма", callback_data="Тьма")],
         [InlineKeyboardButton("Булгаков", callback_data="Булгаков")],
-        [InlineKeyboardButton("Карта Таро", callback_data="таро")],
-        [InlineKeyboardButton("Помощь", callback_data="помощь")]
+        [InlineKeyboardButton("Карта Таро", callback_data="Таро")],
+        [InlineKeyboardButton("Помощь", callback_data="Помощь")]
     ]
-
-    welcome_text = """*Шёпот сквозь века*
-
-_Выбери главу или карту. Пророчество доступно раз в сутки._
-"""
+    welcome_text = (
+        "*Шёпот сквозь века:*\n\n"
+        "Выбери главу или карту. Пророчество доступно *раз в сутки*."
+    )
     await update.message.reply_text(
         welcome_text,
         reply_markup=InlineKeyboardMarkup(keyboard),
         parse_mode="Markdown"
     )
 
-# Команда /resetme
+# /resetme
 async def reset_limits(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
     if user_id in user_limits:
@@ -49,21 +46,19 @@ async def reset_limits(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Обработка кнопок
 async def handle_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
-    data = query.data.lower()
+    await query.answer()
+    data = query.data
     user_id = query.from_user.id
     now = datetime.now()
 
-    await query.answer()
-
-    if data == "помощь":
-        help_text = """*Как пользоваться Шёпотом сквозь века:*
-
-— Нажми /start или кнопку снизу, чтобы выбрать главу.
-— Пророчество доступно *раз в сутки* по каждой теме.
-— Кнопка 'Карта Таро' выдаёт случайную карту и её значение.
-— Для сброса лимитов — /resetme.
-
-_Пусть слова откроют путь..._"""
+    if data == "Помощь":
+        help_text = (
+            "*Как пользоваться Шёпотом сквозь века:*\n"
+            "— Нажми /start или кнопку снизу, чтобы выбрать главу.\n"
+            "— Пророчество доступно *раз в сутки* по каждой теме.\n"
+            "— Кнопка 'Карта Таро' выдаёт случайную карту и её значение.\n\n"
+            "_Пусть слова откроют путь..._"
+        )
         await context.bot.send_message(
             chat_id=query.message.chat.id,
             text=help_text,
@@ -71,9 +66,9 @@ _Пусть слова откроют путь..._"""
         )
         return
 
-    elif data == "таро":
-        if user_id in user_limits and "таро" in user_limits[user_id]:
-            if now < user_limits[user_id]["таро"] + timedelta(days=1):
+    elif data == "Таро":
+        if user_id in user_limits and "Таро" in user_limits[user_id]:
+            if now < user_limits[user_id]["Таро"] + timedelta(days=1):
                 await context.bot.send_message(
                     chat_id=query.message.chat.id,
                     text="Оракул молчит. Возвращайся завтра."
@@ -82,20 +77,20 @@ _Пусть слова откроют путь..._"""
 
         card = random.choice(tarot_cards)
         caption = f"*{card['name']}*\n{card['description']}"
+
         if user_id not in user_limits:
             user_limits[user_id] = {}
-        user_limits[user_id]["таро"] = now
+        user_limits[user_id]["Таро"] = now
 
         await context.bot.send_photo(
             chat_id=query.message.chat.id,
-            photo=card["image"],
+            photo=card["file_id"],
             caption=caption,
             parse_mode="Markdown"
         )
         return
 
-    # Пророчества
-    if data in pages:
+    elif data in pages:
         if user_id in user_limits and data in user_limits[user_id]:
             if now < user_limits[user_id][data] + timedelta(days=1):
                 await context.bot.send_message(
@@ -115,10 +110,9 @@ _Пусть слова откроют путь..._"""
             parse_mode="Markdown"
         )
     else:
-        available = ", ".join(pages.keys())
         await context.bot.send_message(
             chat_id=query.message.chat.id,
-            text=f"Такой главы нет.Попробуй: {available}."
+            text="Такой главы нет. Попробуй другую кнопку."
         )
 
 # Запуск
@@ -127,6 +121,5 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("resetme", reset_limits))
     app.add_handler(CallbackQueryHandler(handle_buttons))
-
     print("Бот запущен.")
     app.run_polling()
