@@ -2,392 +2,392 @@
   "tarot": [
     {
       "name": "Шут",
-      "description": "Описание появится позже.",
+      "description": "Начало, спонтанность, наивность.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/RWS_Tarot_00_Fool.jpg"
     },
     {
       "name": "Маг",
-      "description": "Описание появится позже.",
+      "description": "Мастерство, воля, проявление силы.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_01_Magician.jpg"
     },
     {
       "name": "Верховная Жрица",
-      "description": "Описание появится позже.",
+      "description": "Интуиция, тайна, внутренняя мудрость.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_02_High_Priestess.jpg"
     },
     {
       "name": "Императрица",
-      "description": "Описание появится позже.",
+      "description": "Плодородие, забота, природа.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg"
     },
     {
       "name": "Император",
-      "description": "Описание появится позже.",
+      "description": "Структура, авторитет, стабильность.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg"
     },
     {
       "name": "Иерофант",
-      "description": "Описание появится позже.",
+      "description": "Традиции, духовность, обучение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg"
     },
     {
       "name": "Влюблённые",
-      "description": "Описание появится позже.",
+      "description": "Любовь, единство, выбор.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/TheLovers.jpg"
     },
     {
       "name": "Колесница",
-      "description": "Описание появится позже.",
+      "description": "Контроль, движение вперёд, победа.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg"
     },
     {
       "name": "Сила",
-      "description": "Описание появится позже.",
+      "description": "Сила духа, храбрость, терпение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg"
     },
     {
       "name": "Отшельник",
-      "description": "Описание появится позже.",
+      "description": "Одиночество, поиск истины, мудрость.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg"
     },
     {
       "name": "Колесо Фортуны",
-      "description": "Описание появится позже.",
+      "description": "Изменения, судьба, удача.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/RWS_Tarot_10_Wheel_of_Fortune.jpg"
     },
     {
       "name": "Справедливость",
-      "description": "Описание появится позже.",
+      "description": "Справедливость, равновесие, правда.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/RWS_Tarot_11_Justice.jpg"
     },
     {
       "name": "Повешенный",
-      "description": "Описание появится позже.",
+      "description": "Пауза, жертва, новое восприятие.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg"
     },
     {
       "name": "Смерть",
-      "description": "Описание появится позже.",
+      "description": "Конец, трансформация, начало нового.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/RWS_Tarot_13_Death.jpg"
     },
     {
       "name": "Умеренность",
-      "description": "Описание появится позже.",
+      "description": "Баланс, гармония, терпение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg"
     },
     {
       "name": "Дьявол",
-      "description": "Описание появится позже.",
+      "description": "Иллюзии, привязанности, страхи.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg"
     },
     {
       "name": "Башня",
-      "description": "Описание появится позже.",
+      "description": "Кризис, разрушение, откровение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg"
     },
     {
       "name": "Звезда",
-      "description": "Описание появится позже.",
+      "description": "Надежда, вдохновение, обновление.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/RWS_Tarot_17_Star.jpg"
     },
     {
       "name": "Луна",
-      "description": "Описание появится позже.",
+      "description": "Иллюзия, страх, подсознание.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg"
     },
     {
       "name": "Солнце",
-      "description": "Описание появится позже.",
+      "description": "Счастье, жизненность, ясность.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg"
     },
     {
       "name": "Страшный Суд",
-      "description": "Описание появится позже.",
+      "description": "Суд, пробуждение, ответственность.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/d/dd/RWS_Tarot_20_Judgement.jpg"
     },
     {
       "name": "Мир",
-      "description": "Описание появится позже.",
+      "description": "Завершение, целостность, исполнение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg"
     },
     {
       "name": "Туз Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Туз в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_01_Wands.jpg/240px-RWS_Tarot_01_Wands.jpg"
     },
     {
       "name": "Двойка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Двойка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_02_Wands.jpg/240px-RWS_Tarot_02_Wands.jpg"
     },
     {
       "name": "Тройка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Тройка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_03_Wands.jpg/240px-RWS_Tarot_03_Wands.jpg"
     },
     {
       "name": "Четвёрка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Четвёрка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_04_Wands.jpg/240px-RWS_Tarot_04_Wands.jpg"
     },
     {
       "name": "Пятёрка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Пятёрка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_05_Wands.jpg/240px-RWS_Tarot_05_Wands.jpg"
     },
     {
       "name": "Шестёрка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Шестёрка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_06_Wands.jpg/240px-RWS_Tarot_06_Wands.jpg"
     },
     {
       "name": "Семёрка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Семёрка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_07_Wands.jpg/240px-RWS_Tarot_07_Wands.jpg"
     },
     {
       "name": "Восьмёрка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Восьмёрка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_08_Wands.jpg/240px-RWS_Tarot_08_Wands.jpg"
     },
     {
       "name": "Девятка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Девятка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_09_Wands.jpg/240px-RWS_Tarot_09_Wands.jpg"
     },
     {
       "name": "Десятка Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Десятка в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_10_Wands.jpg/240px-RWS_Tarot_10_Wands.jpg"
     },
     {
       "name": "Паж Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Паж в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_11_Wands.jpg/240px-RWS_Tarot_11_Wands.jpg"
     },
     {
       "name": "Рыцарь Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Рыцарь в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_12_Wands.jpg/240px-RWS_Tarot_12_Wands.jpg"
     },
     {
       "name": "Королева Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Королева в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_13_Wands.jpg/240px-RWS_Tarot_13_Wands.jpg"
     },
     {
       "name": "Король Жезлы",
-      "description": "Описание появится позже.",
+      "description": "Король в масти Жезлы символизирует действие, энергия, вдохновение.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/RWS_Tarot_14_Wands.jpg/240px-RWS_Tarot_14_Wands.jpg"
     },
     {
       "name": "Туз Кубки",
-      "description": "Описание появится позже.",
+      "description": "Туз в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_01_Cups.jpg/240px-RWS_Tarot_01_Cups.jpg"
     },
     {
       "name": "Двойка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Двойка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_02_Cups.jpg/240px-RWS_Tarot_02_Cups.jpg"
     },
     {
       "name": "Тройка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Тройка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_03_Cups.jpg/240px-RWS_Tarot_03_Cups.jpg"
     },
     {
       "name": "Четвёрка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Четвёрка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_04_Cups.jpg/240px-RWS_Tarot_04_Cups.jpg"
     },
     {
       "name": "Пятёрка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Пятёрка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_05_Cups.jpg/240px-RWS_Tarot_05_Cups.jpg"
     },
     {
       "name": "Шестёрка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Шестёрка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_06_Cups.jpg/240px-RWS_Tarot_06_Cups.jpg"
     },
     {
       "name": "Семёрка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Семёрка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_07_Cups.jpg/240px-RWS_Tarot_07_Cups.jpg"
     },
     {
       "name": "Восьмёрка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Восьмёрка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_08_Cups.jpg/240px-RWS_Tarot_08_Cups.jpg"
     },
     {
       "name": "Девятка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Девятка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_09_Cups.jpg/240px-RWS_Tarot_09_Cups.jpg"
     },
     {
       "name": "Десятка Кубки",
-      "description": "Описание появится позже.",
+      "description": "Десятка в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_10_Cups.jpg/240px-RWS_Tarot_10_Cups.jpg"
     },
     {
       "name": "Паж Кубки",
-      "description": "Описание появится позже.",
+      "description": "Паж в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_11_Cups.jpg/240px-RWS_Tarot_11_Cups.jpg"
     },
     {
       "name": "Рыцарь Кубки",
-      "description": "Описание появится позже.",
+      "description": "Рыцарь в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_12_Cups.jpg/240px-RWS_Tarot_12_Cups.jpg"
     },
     {
       "name": "Королева Кубки",
-      "description": "Описание появится позже.",
+      "description": "Королева в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_13_Cups.jpg/240px-RWS_Tarot_13_Cups.jpg"
     },
     {
       "name": "Король Кубки",
-      "description": "Описание появится позже.",
+      "description": "Король в масти Кубки символизирует эмоции, чувства, любовь.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_14_Cups.jpg/240px-RWS_Tarot_14_Cups.jpg"
     },
     {
       "name": "Туз Мечи",
-      "description": "Описание появится позже.",
+      "description": "Туз в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_01_Swords.jpg/240px-RWS_Tarot_01_Swords.jpg"
     },
     {
       "name": "Двойка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Двойка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_02_Swords.jpg/240px-RWS_Tarot_02_Swords.jpg"
     },
     {
       "name": "Тройка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Тройка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_03_Swords.jpg/240px-RWS_Tarot_03_Swords.jpg"
     },
     {
       "name": "Четвёрка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Четвёрка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_04_Swords.jpg/240px-RWS_Tarot_04_Swords.jpg"
     },
     {
       "name": "Пятёрка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Пятёрка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_05_Swords.jpg/240px-RWS_Tarot_05_Swords.jpg"
     },
     {
       "name": "Шестёрка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Шестёрка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_06_Swords.jpg/240px-RWS_Tarot_06_Swords.jpg"
     },
     {
       "name": "Семёрка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Семёрка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_07_Swords.jpg/240px-RWS_Tarot_07_Swords.jpg"
     },
     {
       "name": "Восьмёрка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Восьмёрка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_08_Swords.jpg/240px-RWS_Tarot_08_Swords.jpg"
     },
     {
       "name": "Девятка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Девятка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_09_Swords.jpg/240px-RWS_Tarot_09_Swords.jpg"
     },
     {
       "name": "Десятка Мечи",
-      "description": "Описание появится позже.",
+      "description": "Десятка в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_10_Swords.jpg/240px-RWS_Tarot_10_Swords.jpg"
     },
     {
       "name": "Паж Мечи",
-      "description": "Описание появится позже.",
+      "description": "Паж в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_11_Swords.jpg/240px-RWS_Tarot_11_Swords.jpg"
     },
     {
       "name": "Рыцарь Мечи",
-      "description": "Описание появится позже.",
+      "description": "Рыцарь в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_12_Swords.jpg/240px-RWS_Tarot_12_Swords.jpg"
     },
     {
       "name": "Королева Мечи",
-      "description": "Описание появится позже.",
+      "description": "Королева в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_13_Swords.jpg/240px-RWS_Tarot_13_Swords.jpg"
     },
     {
       "name": "Король Мечи",
-      "description": "Описание появится позже.",
+      "description": "Король в масти Мечи символизирует мышление, конфликты, разум.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_14_Swords.jpg/240px-RWS_Tarot_14_Swords.jpg"
     },
     {
       "name": "Туз Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Туз в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_01_Pentacles.jpg/240px-RWS_Tarot_01_Pentacles.jpg"
     },
     {
       "name": "Двойка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Двойка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_02_Pentacles.jpg/240px-RWS_Tarot_02_Pentacles.jpg"
     },
     {
       "name": "Тройка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Тройка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_03_Pentacles.jpg/240px-RWS_Tarot_03_Pentacles.jpg"
     },
     {
       "name": "Четвёрка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Четвёрка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_04_Pentacles.jpg/240px-RWS_Tarot_04_Pentacles.jpg"
     },
     {
       "name": "Пятёрка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Пятёрка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_05_Pentacles.jpg/240px-RWS_Tarot_05_Pentacles.jpg"
     },
     {
       "name": "Шестёрка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Шестёрка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_06_Pentacles.jpg/240px-RWS_Tarot_06_Pentacles.jpg"
     },
     {
       "name": "Семёрка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Семёрка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_07_Pentacles.jpg/240px-RWS_Tarot_07_Pentacles.jpg"
     },
     {
       "name": "Восьмёрка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Восьмёрка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_08_Pentacles.jpg/240px-RWS_Tarot_08_Pentacles.jpg"
     },
     {
       "name": "Девятка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Девятка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_09_Pentacles.jpg/240px-RWS_Tarot_09_Pentacles.jpg"
     },
     {
       "name": "Десятка Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Десятка в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_10_Pentacles.jpg/240px-RWS_Tarot_10_Pentacles.jpg"
     },
     {
       "name": "Паж Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Паж в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_11_Pentacles.jpg/240px-RWS_Tarot_11_Pentacles.jpg"
     },
     {
       "name": "Рыцарь Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Рыцарь в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_12_Pentacles.jpg/240px-RWS_Tarot_12_Pentacles.jpg"
     },
     {
       "name": "Королева Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Королева в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_13_Pentacles.jpg/240px-RWS_Tarot_13_Pentacles.jpg"
     },
     {
       "name": "Король Пентакли",
-      "description": "Описание появится позже.",
+      "description": "Король в масти Пентакли символизирует материальное, работа, деньги.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/RWS_Tarot_14_Pentacles.jpg/240px-RWS_Tarot_14_Pentacles.jpg"
     }
   ]
