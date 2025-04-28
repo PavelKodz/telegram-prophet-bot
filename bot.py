@@ -10,8 +10,8 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils.exceptions import BotBlocked, ChatNotFound, UserDeactivated
 
 # --- Configuration ---
-API_TOKEN = "7665896303:AAE8m7TaEvSf2stZ2_G0cbRnbG_CfZX2yFg"
-DATA_DIR = "."
+API_TOKEN = os.getenv("BOT_TOKEN")
+DATA_DIR = ""
 
 logging.basicConfig(level=logging.INFO)
 
