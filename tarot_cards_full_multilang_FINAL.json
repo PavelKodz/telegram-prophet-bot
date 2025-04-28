@@ -1,0 +1,919 @@
+{
+  "tarot": [
+    {
+      "name": {
+        "ru": "Смерть",
+        "en": "Death",
+        "de": "Der Tod",
+        "pl": "Śmierć"
+      },
+      "description": {
+        "ru": "Для многих раскладов карта Таро Смерти означает завершение главы, оставление прошлого позади и удаление всего ненужного. Это также может означать переход или золотую середину между одной фазой жизни и следующей.",
+        "en": "For many readings, the Death card signifies the end of a chapter, leaving the past behind, and removing what is no longer needed. It can also represent a transition or the golden mean between one phase of life and the next.",
+        "de": "Für viele Legungen bedeutet die Karte Tod das Ende eines Kapitels, das Zurücklassen der Vergangenheit und das Entfernen von allem Unnötigen. Sie kann auch einen Übergang oder die goldene Mitte zwischen zwei Lebensphasen darstellen.",
+        "pl": "Dla wielu rozkładów karta Śmierci oznacza zakończenie rozdziału, pozostawienie przeszłości za sobą i usunięcie wszystkiego, co zbędne. Może również symbolizować przejście lub złoty środek między jedną a drugą fazą życia."
+      },
+      "file_id": "AgACAgIAAxkBAAIGiWgNJTzAmRkP2tMuP4wBOwgdZLaHAALA-DEbcI9pSGO4EC8Ir9QCAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Умеренность",
+        "en": "Temperance",
+        "de": "Mäßigkeit",
+        "pl": "Umiarkowanie"
+      },
+      "description": {
+        "ru": "Избегайте всех экстремальных ситуаций. Хотя бывают моменты, когда нужно «идти по яремной вене», это не послание ангела. Некоторые ситуации сложны и требуют терпения и особой осторожности, даже когда ваши эмоции говорят вам реагировать.\n\nУмеренность на самом деле является навыком, и, как и любой другой навык, совершенство достигается практикой. Воздержитесь от поспешных суждений. Не поддавайтесь искушению реагировать немедленно.",
+        "en": "Avoid all extreme situations. Although there are times when one must 'walk the narrow path', this is not the angel's message. Some situations are complex and require patience and special caution, even when your emotions urge you to react.\n\nTemperance is actually a skill, and like any other skill, perfection is achieved through practice. Refrain from hasty judgments. Resist the temptation to react immediately.",
+        "de": "Vermeiden Sie alle extremen Situationen. Obwohl es Momente gibt, in denen man 'den schmalen Grat' gehen muss, ist dies nicht die Botschaft des Engels. Manche Situationen sind komplex und erfordern Geduld und besondere Vorsicht, auch wenn Ihre Emotionen Sie zum Reagieren drängen.\n\nMäßigkeit ist tatsächlich eine Fähigkeit, und wie jede andere Fähigkeit wird Perfektion durch Übung erreicht. Verzichten Sie auf vorschnelle Urteile. Widerstehen Sie der Versuchung, sofort zu reagieren.",
+        "pl": "Unikaj wszystkich skrajnych sytuacji. Chociaż czasami trzeba 'iść wąską ścieżką', to nie jest przesłanie anioła. Niektóre sytuacje są złożone i wymagają cierpliwości oraz szczególnej ostrożności, nawet gdy emocje nakazują ci natychmiastową reakcję.\n\nUmiarkowanie to w rzeczywistości umiejętność, a jak każda umiejętność, perfekcja osiągana jest przez praktykę. Powstrzymaj się od pochopnych osądów. Oprzyj się pokusie natychmiastowej reakcji."
+      },
+      "file_id": "AgACAgIAAxkBAAIGi2gNJfgZZpZ_1RJyDGzTL9o0pCeNAALO-DEbcI9pSFBYyvoPUqXJAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Дьявол",
+        "en": "The Devil",
+        "de": "Der Teufel",
+        "pl": "Diabeł"
+      },
+      "description": {
+        "ru": "Дьявол — карта иллюзии. Хотя у вас есть полный контроль над своей жизнью, убеждениями и выбором, карта Дьявола символизирует то, как зависимость, депрессия и нездоровые связи могут заставить вас чувствовать себя неуправляемыми.\n\nДаже социальные сети, физические упражнения и работа могут быть воплощены Дьяволом, когда их слишком много. Независимо от характера вашей конкретной проблемы, послание Дьявола ясно: перенаправьте свое внимание с удовлетворения желаний на действительно важные вещи.",
+        "en": "The Devil is a card of illusion. While you have full control over your life, beliefs, and choices, the Devil card symbolizes how addiction, depression, and unhealthy attachments can make you feel powerless.\n\nEven social media, exercise, and work can embody the Devil when taken to extremes. Regardless of the nature of your specific problem, the Devil’s message is clear: redirect your focus from gratifying desires to truly important things.",
+        "de": "Der Teufel ist eine Karte der Illusion. Obwohl Sie die volle Kontrolle über Ihr Leben, Ihre Überzeugungen und Ihre Entscheidungen haben, symbolisiert die Teufel-Karte, wie Sucht, Depression und ungesunde Bindungen Sie machtlos fühlen lassen können.\n\nSogar soziale Medien, Sport und Arbeit können den Teufel verkörpern, wenn sie im Übermaß betrieben werden. Unabhängig von der Art Ihres spezifischen Problems ist die Botschaft des Teufels klar: Lenken Sie Ihre Aufmerksamkeit von der Befriedigung von Wünschen auf wirklich wichtige Dinge.",
+        "pl": "Diabeł to karta iluzji. Choć masz pełną kontrolę nad swoim życiem, przekonaniami i wyborami, karta Diabła symbolizuje, jak uzależnienie, depresja i niezdrowe więzi mogą sprawić, że poczujesz się bezsilny.\n\nNawet media społecznościowe, ćwiczenia fizyczne i praca mogą ucieleśniać Diabła, gdy są nadużywane. Bez względu na charakter twojego konkretnego problemu, przesłanie Diabła jest jasne: przekieruj swoją uwagę z zaspokajania pragnień na naprawdę ważne rzeczy."
+      },
+      "file_id": "AgACAgIAAxkBAAIF02gNHu6NZF1rbkXAePIr-PKTr1F2AAId-DEbcI9pSNXaoorCCIcHAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Луна",
+        "en": "The Moon",
+        "de": "Der Mond",
+        "pl": "Księżyc"
+      },
+      "description": {
+        "ru": "Луна, в некотором смысле, является предупреждением. Вы — рак, поднимающийся из моря. Если вы доверитесь своей интуиции и будете двигаться вперед, вы получите освобождение от того, что вас связывает. Но сначала вы должны быть готовы взглянуть правде в глаза.\n\nВ вашей жизни может быть скрытая правда, которую вам нужно раскрыть. Луна предостерегает вас от принятия вещей такими, какими они кажутся. Возможно, пришло время копнуть немного глубже и позволить свету пролить свет на заблуждения в вашей жизни.",
+        "en": "The Moon is, in a sense, a warning. You are the crab rising from the sea. If you trust your intuition and move forward, you will find liberation from what binds you. But first, you must be willing to face the truth.\n\nThere may be a hidden truth in your life that you need to uncover. The Moon warns you not to take things at face value. It may be time to dig a little deeper and allow the light to shine on illusions in your life.",
+        "de": "Der Mond ist in gewisser Weise eine Warnung. Du bist der Krebs, der aus dem Meer aufsteigt. Wenn du deiner Intuition vertraust und voranschreitest, wirst du Befreiung von dem finden, was dich bindet. Aber zuerst musst du bereit sein, der Wahrheit ins Auge zu blicken.\n\nIn deinem Leben könnte eine verborgene Wahrheit existieren, die du aufdecken musst. Der Mond warnt davor, Dinge für bare Münze zu nehmen. Es ist möglicherweise an der Zeit, tiefer zu graben und das Licht auf Illusionen in deinem Leben scheinen zu lassen.",
+        "pl": "Księżyc jest w pewnym sensie ostrzeżeniem. Jesteś rakiem wynurzającym się z morza. Jeśli zaufasz swojej intuicji i ruszysz naprzód, znajdziesz wyzwolenie z tego, co cię więzi. Ale najpierw musisz być gotów stawić czoła prawdzie.\n\nW twoim życiu może istnieć ukryta prawda, którą musisz odkryć. Księżyc ostrzega przed przyjmowaniem rzeczy takimi, jakie się wydają. Może nadszedł czas, aby zagłębić się trochę głębiej i pozwolić światłu oświetlić iluzje w twoim życiu."
+      },
+      "file_id": "AgACAgIAAxkBAAIGkGgNJp15T-E0rRhQHfcpg7T5YHWIAALR-DEbcI9pSLxSD4J_iS7PAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Звезда",
+        "en": "The Star",
+        "de": "Der Stern",
+        "pl": "Gwiazda"
+      },
+      "description": {
+        "ru": "Звезда хочет, чтобы вы открыли свое сердце, осознали свою внутреннюю силу и поверили, что лучшее еще впереди. Вселенная обильно благословляет вас (нас). Мы постоянно притягиваем то, что желаем, через наши убеждения и мысли. Когда Звезда приходит в вертикальное положение, это обычно следует за тяжелым изменением или травмирующим событием.",
+        "en": "The Star wants you to open your heart, realize your inner strength, and believe that the best is yet to come. The Universe abundantly blesses you (us). We constantly attract what we desire through our beliefs and thoughts. When the Star appears upright, it usually follows a major change or traumatic event.",
+        "de": "Der Stern möchte, dass du dein Herz öffnest, deine innere Stärke erkennst und daran glaubst, dass das Beste noch vor dir liegt. Das Universum segnet dich (uns) reichlich. Wir ziehen ständig das an, was wir durch unsere Überzeugungen und Gedanken wünschen. Wenn der Stern aufrecht erscheint, folgt er normalerweise auf eine große Veränderung oder ein traumatisches Ereignis.",
+        "pl": "Gwiazda pragnie, abyś otworzył swoje serce, uświadomił sobie swoją wewnętrzną siłę i uwierzył, że najlepsze dopiero przed tobą. Wszechświat obficie cię (nas) błogosławi. Stale przyciągamy to, czego pragniemy, poprzez nasze przekonania i myśli. Gdy Gwiazda pojawia się w pozycji prostej, zwykle następuje po poważnej zmianie lub traumatycznym wydarzeniu."
+      },
+      "file_id": "AgACAgIAAxkBAAIF5WgNHvjJFqKefQo5C9evAg0R9oX4AAIs-DEbcI9pSEN9XsmTiUKjAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Суд",
+        "en": "Judgement",
+        "de": "Das Gericht",
+        "pl": "Sąd"
+      },
+      "description": {
+        "ru": "Сейчас идеальное время, чтобы взвесить свои действия и убедиться, что они соответствуют вашим ценностям и убеждениям.\n\nТо, что вы делали в прошлом или делаете сегодня, отражает ваши основные ценности и убеждения? Направляют ли они вас к вашим целям и задачам?\n\nБез ясности знания того, кто вы есть на самом деле, вы не сможете ответить на эти вопросы. Найдите время, чтобы подумать о вещах, прежде чем продолжать свою жизнь. В конце концов, это того стоит.",
+        "en": "Now is the perfect time to weigh your actions and ensure they align with your values and beliefs.\n\nWhat you have done in the past or are doing today—does it reflect your core values and beliefs? Does it guide you towards your goals and missions?\n\nWithout clarity about who you truly are, you cannot answer these questions. Take time to reflect on things before moving forward with your life. In the end, it is worth it.",
+        "de": "Jetzt ist der perfekte Zeitpunkt, um Ihre Handlungen abzuwägen und sicherzustellen, dass sie mit Ihren Werten und Überzeugungen übereinstimmen.\n\nWas Sie in der Vergangenheit getan haben oder heute tun – spiegelt es Ihre grundlegenden Werte und Überzeugungen wider? Führt es Sie zu Ihren Zielen und Aufgaben?\n\nOhne Klarheit darüber, wer Sie wirklich sind, können Sie diese Fragen nicht beantworten. Nehmen Sie sich Zeit, über die Dinge nachzudenken, bevor Sie Ihr Leben fortsetzen. Am Ende lohnt es sich.",
+        "pl": "Teraz jest idealny czas, aby rozważyć swoje działania i upewnić się, że są one zgodne z twoimi wartościami i przekonaniami.\n\nTo, co robiłeś w przeszłości lub robisz teraz — czy odzwierciedla twoje podstawowe wartości i przekonania? Czy prowadzi cię to do twoich celów i misji?\n\nBez jasności co do tego, kim naprawdę jesteś, nie będziesz w stanie odpowiedzieć na te pytania. Znajdź czas na refleksję, zanim ruszysz dalej w swoim życiu. W końcu warto."
+      },
+      "file_id": "AgACAgIAAxkBAAIGAmgNHwtkXige0fhGNDSz2rxvryMuAAJN-DEbcI9pSPAOSZFde_HlAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Мир",
+        "en": "The World",
+        "de": "Die Welt",
+        "pl": "Świat"
+      },
+      "description": {
+        "ru": "Карта Мира в чтении Таро означает столкнуться с успехом и достижением. Это означает, что долгосрочный проект, период учебы или любое другое важное событие в вашей жизни прошли полный круг, и вы достигли своих целей и стремлений.\n\nНесмотря на трудности и препятствия, с которыми вы столкнулись, вы стояли твердо и упорно. Семена, которые вы посадили, сейчас цветут, и вы пожинаете плоды своего труда. Все сошлось, и вы находитесь в нужном месте, делаете правильные вещи и достигаете того, что задумали.",
+        "en": "The World card in a Tarot reading signifies success and achievement. It means that a long-term project, a period of study, or any other significant event in your life has come full circle, and you have reached your goals and aspirations.\n\nDespite the hardships and difficulties you faced, you stood firm and persistent. The seeds you planted are now blooming, and you are reaping the rewards of your labor. Everything has come together, and you are in the right place, doing the right things, achieving what you intended.",
+        "de": "Die Welt-Karte im Tarot bedeutet Erfolg und Erfüllung. Sie zeigt an, dass ein langfristiges Projekt, eine Studienphase oder ein anderes bedeutendes Ereignis in Ihrem Leben einen vollständigen Kreis geschlossen hat, und Sie Ihre Ziele und Bestrebungen erreicht haben.\n\nTrotz aller Schwierigkeiten und Herausforderungen sind Sie standhaft und beharrlich geblieben. Die Samen, die Sie gesät haben, blühen jetzt, und Sie ernten die Früchte Ihrer Arbeit. Alles hat sich zusammengefügt, und Sie sind am richtigen Ort, tun die richtigen Dinge und erreichen Ihre Ziele.",
+        "pl": "Karta Świata w tarocie oznacza sukces i osiągnięcia. Oznacza to, że długoterminowy projekt, okres nauki lub inne ważne wydarzenie w twoim życiu zatoczyło pełne koło i osiągnąłeś swoje cele i aspiracje.\n\nPomimo trudności i przeszkód, z którymi się zmagałeś, pozostałeś wytrwały i niezłomny. Zasiane nasiona teraz kwitną, a ty zbierasz owoce swojej pracy. Wszystko się połączyło i jesteś we właściwym miejscu, robisz właściwe rzeczy i osiągasz to, co zamierzałeś."
+      },
+      "file_id": "AgACAgIAAxkBAAIGlmgNJ3W7G4hvF9s2J8f0u5X_stc_AALU-DEbcI9pSB3U-T6Nb277AQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Король Жезлов",
+        "en": "King of Wands",
+        "de": "König der Stäbe",
+        "pl": "Król Buław"
+      },
+      "description": {
+        "ru": "Буквально может означать, что вы встретите Покровителя, Протеже, Союзника, Человека с деловой хваткой. От его помощи может зависеть положительный исход задуманного.",
+        "en": "It can literally mean that you will meet a Patron, Protégé, Ally, or a Person with business acumen. The positive outcome of your plans may depend on their help.",
+        "de": "Es kann buchstäblich bedeuten, dass Sie einen Schutzherrn, Schützling, Verbündeten oder eine Person mit Geschäftssinn treffen. Der positive Ausgang Ihrer Vorhaben könnte von seiner Hilfe abhängen.",
+        "pl": "Może dosłownie oznaczać, że spotkasz Opiekuna, Protegowanego, Sojusznika lub Osobę z wyczuciem biznesowym. Pozytywny wynik twoich planów może zależeć od jego pomocy."
+      },
+      "file_id": "AgACAgIAAxkBAAIGmGgNJ5ql0a2im_zGKBOUE4Mb2xRSAALW-DEbcI9pSFlB-HKCe-jYAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Королева Жезлов",
+        "en": "Queen of Wands",
+        "de": "Königin der Stäbe",
+        "pl": "Królowa Buław"
+      },
+      "description": {
+        "ru": "Контакт с истеричной женщиной, самодурство, препятствия к достижению цели. Неопытность в руководстве, конфликты с начальством.",
+        "en": "Contact with a hysterical woman, tyranny, obstacles to achieving a goal. Inexperience in leadership, conflicts with superiors.",
+        "de": "Kontakt mit einer hysterischen Frau, Tyrannei, Hindernisse beim Erreichen eines Ziels. Unerfahrenheit in der Führung, Konflikte mit Vorgesetzten.",
+        "pl": "Kontakt z histeryczną kobietą, despotyzm, przeszkody w osiągnięciu celu. Brak doświadczenia w przywództwie, konflikty z przełożonymi."
+      },
+      "file_id": "AgACAgIAAxkBAAIGmmgNJ8g71_UTo4_rWl5gRU1hFIhWAALd-DEbcI9pSBcqLRFo4t01AQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Рыцарь Жезлов",
+        "en": "Knight of Wands",
+        "de": "Ritter der Stäbe",
+        "pl": "Rycerz Buław"
+      },
+      "description": {
+        "ru": "Рыцарь Жезлов в прямом положении символизирует энергичность и настойчивость. Если вам выпала эта карта, будьте готовы направить силы на воплощение желаний. Составьте четкий план действий, оцените возможные риски и меняйте свою жизнь. Карта сигнализирует о том, что настало время для переезда, путешествия или смены работы. Начинания и дела с большой долей вероятностью будут успешными.",
+        "en": "The Knight of Wands in an upright position symbolizes energy and persistence. If this card appears for you, be ready to direct your forces toward achieving your desires. Create a clear action plan, assess possible risks, and change your life. The card signals that it is time for relocation, travel, or a job change. Ventures and undertakings are likely to be successful.",
+        "de": "Der Ritter der Stäbe in aufrechter Position symbolisiert Energie und Beharrlichkeit. Wenn diese Karte erscheint, seien Sie bereit, Ihre Kräfte auf die Verwirklichung Ihrer Wünsche zu richten. Erstellen Sie einen klaren Aktionsplan, bewerten Sie mögliche Risiken und ändern Sie Ihr Leben. Die Karte signalisiert, dass es Zeit für einen Umzug, eine Reise oder einen Jobwechsel ist. Unternehmungen und Vorhaben werden wahrscheinlich erfolgreich sein.",
+        "pl": "Rycerz Buław w pozycji prostej symbolizuje energię i wytrwałość. Jeśli ta karta pojawi się w twoim rozkładzie, bądź gotów skierować swoje siły na realizację swoich pragnień. Stwórz jasny plan działania, oceń możliwe ryzyko i zmień swoje życie. Karta sygnalizuje, że nadszedł czas na przeprowadzkę, podróż lub zmianę pracy. Przedsięwzięcia i sprawy mają dużą szansę na sukces."
+      },
+      "file_id": "AgACAgIAAxkBAAIGmmgNJ8g71_UTo4_rWl5gRU1hFIhWAALd-DEbcI9pSBcqLRFo4t01AQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Паж Жезлов",
+        "en": "Page of Wands",
+        "de": "Bube der Stäbe",
+        "pl": "Paź Buław"
+      },
+      "description": {
+        "ru": "Появление Пажа Жезлов означает скорые хорошие новости, долгожданную весть от какого-то человека, известие, которое станет своего рода спусковым механизмом для продвижения в вопросе. Также эта карта указывает на необходимость действовать и быть активными, показывает прилив энергии и дает вдохновение.",
+        "en": "The appearance of the Page of Wands signifies imminent good news, a long-awaited message from someone, news that will act as a trigger for progress in a matter. This card also indicates the need to act and be active, shows a surge of energy, and provides inspiration.",
+        "de": "Das Erscheinen des Buben der Stäbe bedeutet baldige gute Nachrichten, eine lang ersehnte Botschaft von jemandem, eine Nachricht, die als Auslöser für den Fortschritt in einer Angelegenheit dient. Diese Karte weist auch auf die Notwendigkeit hin, aktiv zu handeln, zeigt einen Energieschub und bietet Inspiration.",
+        "pl": "Pojawienie się Pazia Buław oznacza rychłe dobre wiadomości, długo oczekiwaną wiadomość od kogoś, informację, która stanie się swego rodzaju zapalnikiem do postępu w danej sprawie. Karta ta wskazuje również na potrzebę działania i aktywności, pokazuje przypływ energii i daje inspirację."
+      },
+      "file_id": "AgACAgIAAxkBAAIF5mgNHvhA3ogycDEhndpsYJaecgugAAIq-DEbcI9pSKdcTLaPOHNvAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Десятка Жезлов",
+        "en": "Ten of Wands",
+        "de": "Zehn der Stäbe",
+        "pl": "Dziesiątka Buław"
+      },
+      "description": {
+        "ru": "Десятка Жезлов указывает на напряженную обстановку в текущий момент жизни. Ситуации одна за другой вынуждают проявлять стойкий характер. Ввиду этого ваше ментальное здоровье находится на грани: стресс, апатия и депрессия.\n\nВы боитесь, что проделанную работу не оценят по достоинству, поэтому не строите четких планов на будущее. Не поддавайтесь эмоциям, отбросьте беспокойство и смело принимайтесь за задуманное.",
+        "en": "The Ten of Wands points to a tense situation at this moment in life. Situations arise one after another, forcing you to show resilience. Because of this, your mental health is on the edge: stress, apathy, and depression.\n\nYou fear that your hard work will not be appreciated properly, so you do not make clear plans for the future. Do not give in to emotions; discard anxiety and boldly move forward with your plans.",
+        "de": "Die Zehn der Stäbe weist auf eine angespannte Situation im aktuellen Lebensabschnitt hin. Situationen zwingen Sie nacheinander, Charakterstärke zu zeigen. Dadurch gerät Ihre psychische Gesundheit an ihre Grenzen: Stress, Apathie und Depression.\n\nSie fürchten, dass Ihre geleistete Arbeit nicht ausreichend gewürdigt wird, und vermeiden es, klare Zukunftspläne zu schmieden. Lassen Sie sich nicht von Emotionen leiten, legen Sie Sorgen beiseite und packen Sie mutig Ihre Vorhaben an.",
+        "pl": "Dziesiątka Buław wskazuje na napiętą sytuację w obecnym momencie życia. Kolejne sytuacje zmuszają cię do wykazania się wytrwałością. W związku z tym twoje zdrowie psychiczne jest na granicy: stres, apatia i depresja.\n\nObawiasz się, że twoja ciężka praca nie zostanie należycie doceniona, dlatego nie tworzysz jasnych planów na przyszłość. Nie poddawaj się emocjom, odrzuć niepokój i śmiało realizuj swoje zamierzenia."
+      },
+      "file_id": "AgACAgIAAxkBAAIFz2gNHu67lRuUheG58e3hDHXgueqaAAIV-DEbcI9pSOAXPUOHPYPOAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Девятка Жезлов",
+        "en": "Nine of Wands",
+        "de": "Neun der Stäbe",
+        "pl": "Dziewiątka Buław"
+      },
+      "description": {
+        "ru": "Девятка Жезлов указывает на то, что человек прошел непростой путь, из-за чего практически постоянно находится в боевой готовности. Ему нужно или кажется нужным что-то или кого-то защищать: себя, свои интересы, ценности, возможно даже материальные вещи. Вероятно, он от этого изрядно устал, судя по его выражению лица.",
+        "en": "The Nine of Wands indicates that a person has gone through a difficult path, and as a result, is almost constantly on guard. They need—or feel the need—to protect something or someone: themselves, their interests, values, or possibly material possessions. Judging by their expression, they are likely quite exhausted.",
+        "de": "Die Neun der Stäbe zeigt an, dass jemand einen schwierigen Weg hinter sich hat und sich daher fast ständig in Kampfbereitschaft befindet. Er muss oder glaubt, etwas oder jemanden schützen zu müssen: sich selbst, seine Interessen, Werte oder möglicherweise materielle Dinge. An seinem Gesichtsausdruck ist zu erkennen, dass er davon ziemlich erschöpft ist.",
+        "pl": "Dziewiątka Buław wskazuje, że osoba przeszła trudną drogę i w rezultacie jest niemal stale w stanie gotowości bojowej. Musi lub wydaje się, że musi coś lub kogoś chronić: siebie, swoje interesy, wartości lub nawet dobra materialne. Sądzę po jego wyrazie twarzy, że jest tym wszystkim bardzo zmęczony."
+      },
+      "file_id": "AgACAgIAAxkBAAIGoGgNKIO-ZpWwlesuhL4tcIi04-v2AALf-DEbcI9pSGh_3HVuJg4LAQADAgADbQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Восьмерка Жезлов",
+        "en": "Eight of Wands",
+        "de": "Acht der Stäbe",
+        "pl": "Ósemka Buław"
+      },
+      "description": {
+        "ru": "Если у вас есть постоянный партнер, то карта указывает на новый виток отношений. Союз станет крепче, в него вернется страсть. Также карта указывает на динамику: возможно, партнер будет готов создать семью. Сейчас для этого очень благоприятное время.\n\nЕсли партнера нет, Восьмерка Жезлов говорит о том, что в жизни гадающего будет много ухажеров (воздыхательниц). Будьте открыты ко всему новому.",
+        "en": "If you have a steady partner, the card indicates a new phase in the relationship. The bond will strengthen, and passion will return. It also points to dynamic progress: your partner might be ready to start a family. Now is a very favorable time for that.\n\nIf there is no partner, the Eight of Wands suggests that there will be many admirers in the querent's life. Be open to new opportunities.",
+        "de": "Wenn Sie einen festen Partner haben, weist die Karte auf eine neue Phase der Beziehung hin. Die Bindung wird stärker, die Leidenschaft kehrt zurück. Auch deutet die Karte auf eine Dynamik hin: Der Partner könnte bereit sein, eine Familie zu gründen. Jetzt ist eine sehr günstige Zeit dafür.\n\nWenn kein Partner vorhanden ist, sagt die Acht der Stäbe, dass es viele Verehrer im Leben des Fragenden geben wird. Seien Sie offen für Neues.",
+        "pl": "Jeśli masz stałego partnera, karta wskazuje na nowy etap w związku. Więź stanie się silniejsza, a namiętność powróci. Karta wskazuje również na dynamikę: partner może być gotowy na założenie rodziny. Teraz jest na to bardzo sprzyjający czas.\n\nJeśli nie masz partnera, Ósemka Buław mówi o tym, że w życiu pytającego pojawi się wielu adoratorów. Bądź otwarty na nowe możliwości."
+      },
+      "file_id": "AgACAgIAAxkBAAIGomgNKKFInWqn52scrnTZ5dAdAAFE-AAC4PgxG3CPaUjNTJJGD8RgfAEAAwIAA3kAAzYE"
+    },
+    {
+      "name": {
+        "ru": "Семерка Жезлов",
+        "en": "Seven of Wands",
+        "de": "Sieben der Stäbe",
+        "pl": "Siódemka Buław"
+      },
+      "description": {
+        "ru": "Карта говорит о сложном периоде в отношениях — пара переживает кризис, который можно разрешить, если проявить решимость. Трудности могут быть не внешние, а внутренние, которые один из партнеров не афиширует. Карта также говорит о вмешательстве в отношения пары других людей.\n\nЕсли человек свободен, то кто-то может влиять на его жизнь и, вероятно, мешает появлению партнера.",
+        "en": "The card speaks of a difficult period in a relationship — the couple is experiencing a crisis that can be resolved with determination. Difficulties may be internal rather than external, hidden by one of the partners. The card also points to interference from other people in the relationship.\n\nIf the person is single, someone might be influencing their life and possibly hindering the appearance of a partner.",
+        "de": "Die Karte spricht von einer schwierigen Phase in einer Beziehung – das Paar durchlebt eine Krise, die mit Entschlossenheit überwunden werden kann. Die Schwierigkeiten können intern und nicht extern sein, wobei einer der Partner sie nicht offenlegt. Die Karte deutet auch auf Einmischung anderer Menschen in die Beziehung hin.\n\nWenn die Person alleinstehend ist, könnte jemand ihr Leben beeinflussen und möglicherweise das Erscheinen eines Partners verhindern.",
+        "pl": "Karta mówi o trudnym okresie w związku — para przechodzi kryzys, który można rozwiązać, wykazując się determinacją. Trudności mogą być wewnętrzne, a nie zewnętrzne, ukrywane przez jednego z partnerów. Karta wskazuje również na ingerencję innych osób w związek.\n\nJeśli osoba jest wolna, ktoś może wpływać na jej życie i prawdopodobnie utrudniać pojawienie się partnera."
+      },
+      "file_id": "AgACAgIAAxkBAAIGpGgNKML0eBXxWlSYFAw35fDfrqYoAALh-DEbcI9pSH7T18OqW-WpAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Шестерка Жезлов",
+        "en": "Six of Wands",
+        "de": "Sechs der Stäbe",
+        "pl": "Szóstka Buław"
+      },
+      "description": {
+        "ru": "Шестерка Жезлов считается одной из самых удачных карт среди Младших Арканов. Главное в толковании карты — это начало успешного и радостного периода, когда трудные задачи решены, а цели достигнуты. Вы уже внутренне настроены на успех. А еще заполучили главную победу — над самим собой. Пришел момент вкусить в полной мере плоды победы, признания и славы.",
+        "en": "The Six of Wands is considered one of the most fortunate cards among the Minor Arcana. The main meaning of the card is the beginning of a successful and joyful period when difficult tasks have been solved and goals achieved. You are already internally tuned to success. Moreover, you have gained the greatest victory — over yourself. The moment has come to fully enjoy the fruits of victory, recognition, and glory.",
+        "de": "Die Sechs der Stäbe gilt als eine der glücklichsten Karten unter den kleinen Arkana. Die Hauptbedeutung der Karte ist der Beginn einer erfolgreichen und freudigen Phase, in der schwierige Aufgaben gelöst und Ziele erreicht wurden. Sie sind innerlich bereits auf Erfolg eingestellt. Außerdem haben Sie den größten Sieg errungen – über sich selbst. Der Moment ist gekommen, um die Früchte des Sieges, der Anerkennung und des Ruhms in vollen Zügen zu genießen.",
+        "pl": "Szóstka Buław jest uważana za jedną z najbardziej pomyślnych kart wśród Małych Arkanów. Główne znaczenie karty to początek udanego i radosnego okresu, kiedy trudne zadania zostały rozwiązane, a cele osiągnięte. Jesteś już wewnętrznie nastawiony na sukces. Co więcej, odniosłeś największe zwycięstwo — nad samym sobą. Nadszedł moment, aby w pełni cieszyć się owocami zwycięstwa, uznania i chwały."
+      },
+      "file_id": "AgACAgIAAxkBAAIGpGgNKML0eBXxWlSYFAw35fDfrqYoAALh-DEbcI9pSH7T18OqW-WpAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Шестерка Жезлов",
+        "en": "Six of Wands",
+        "de": "Sechs der Stäbe",
+        "pl": "Szóstka Buław"
+      },
+      "description": {
+        "ru": "Шестерка Жезлов считается одной из самых удачных карт среди Младших Арканов. Главное в толковании карты — это начало успешного и радостного периода, когда трудные задачи решены, а цели достигнуты. Вы уже внутренне настроены на успех. А еще заполучили главную победу — над самим собой. Пришел момент вкусить в полной мере плоды победы, признания и славы.",
+        "en": "The Six of Wands is considered one of the most fortunate cards among the Minor Arcana. The main interpretation of the card is the beginning of a successful and joyful period when difficult tasks have been solved and goals achieved. You are already internally set for success. Moreover, you have achieved the greatest victory — over yourself. It is time to fully enjoy the fruits of victory, recognition, and fame.",
+        "de": "Die Sechs der Stäbe gilt als eine der glücklichsten Karten unter den kleinen Arkana. Die Hauptbedeutung der Karte ist der Beginn einer erfolgreichen und freudigen Phase, in der schwierige Aufgaben gelöst und Ziele erreicht wurden. Sie sind bereits innerlich auf Erfolg eingestellt. Außerdem haben Sie den größten Sieg errungen – über sich selbst. Nun ist es an der Zeit, die Früchte des Sieges, der Anerkennung und des Ruhms in vollen Zügen zu genießen.",
+        "pl": "Szóstka Buław jest uważana za jedną z najbardziej pomyślnych kart wśród Małych Arkanów. Główne przesłanie tej karty to początek udanego i radosnego okresu, w którym trudne zadania zostały rozwiązane, a cele osiągnięte. Jesteś już wewnętrznie nastawiony na sukces. Ponadto odniosłeś największe zwycięstwo – nad samym sobą. Przyszedł czas, aby w pełni cieszyć się owocami zwycięstwa, uznania i sławy."
+      },
+      "file_id": "AgACAgIAAxkBAAIF92gNHvkQrxnGCJivhbZErTEZZEapAAIy-DEbcI9pSCSp42Jwld-KAQADAgADbQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Пятерка Жезлов",
+        "en": "Five of Wands",
+        "de": "Fünf der Stäbe",
+        "pl": "Piątka Buław"
+      },
+      "description": {
+        "ru": "Судьба ли подложила свинью или конкурент бросил перчатку — вызов стоит принять. Борьба будет нелегкой, но и перспективы заманчивые. Число пять означает середину, процесс запущен, останавливаться поздно, но и до пункта назначения еще далековато.",
+        "en": "Whether fate has played a trick on you or a competitor has thrown down the gauntlet — the challenge should be accepted. The struggle will be tough, but the prospects are enticing. The number five symbolizes the midpoint; the process has started, it's too late to stop, but the destination is still far away.",
+        "de": "Ob das Schicksal Ihnen einen Streich gespielt oder ein Konkurrent den Fehdehandschuh hingeworfen hat – die Herausforderung sollte angenommen werden. Der Kampf wird hart, aber die Aussichten sind verlockend. Die Zahl fünf steht für die Mitte; der Prozess ist im Gange, ein Anhalten ist zu spät, aber das Ziel ist noch weit entfernt.",
+        "pl": "Czy los zadrwił z ciebie, czy konkurent rzucił ci wyzwanie — wyzwanie należy podjąć. Walka będzie trudna, ale perspektywy są kuszące. Liczba pięć oznacza środek drogi; proces został rozpoczęty, na zatrzymanie się jest za późno, ale do celu jeszcze daleko."
+      },
+      "file_id": "AgACAgIAAxkBAAIF72gNHvjHlF_kOHkpSYWT2ZAcFn5TAAI6-DEbcI9pSE1c0nc_2uQ_AQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Четверка Жезлов",
+        "en": "Four of Wands",
+        "de": "Vier der Stäbe",
+        "pl": "Czwórka Buław"
+      },
+      "description": {
+        "ru": "Если 4 Жезлов в раскладе выпадает, то тот, кому гадают, пребывает в гармонии с самим собой. В его жизни есть практически все, что нужно. Им достигнуты многие цели и реализованы планы. Словом, он может праздновать свои достижения. Главное тут не возгордиться.\n\nГадающий знает, что есть те, кто ему дорог: они поддерживают его, он не один.",
+        "en": "If the Four of Wands appears in a reading, it means the querent is in harmony with themselves. They have almost everything they need in life. Many goals have been achieved and plans realized. In short, they can celebrate their achievements. The main thing is not to become arrogant.\n\nThe querent knows there are people dear to them: they support them, they are not alone.",
+        "de": "Wenn die Vier der Stäbe in einer Legung erscheint, bedeutet dies, dass der Fragende mit sich selbst im Einklang ist. In seinem Leben ist fast alles vorhanden, was er braucht. Viele Ziele wurden erreicht und Pläne verwirklicht. Kurz gesagt, er kann seine Erfolge feiern. Wichtig ist nur, nicht überheblich zu werden.\n\nDer Fragende weiß, dass es Menschen gibt, die ihm am Herzen liegen: Sie unterstützen ihn, er ist nicht allein.",
+        "pl": "Jeśli w rozkładzie pojawia się Czwórka Buław, oznacza to, że pytający jest w harmonii z samym sobą. W jego życiu jest prawie wszystko, czego potrzebuje. Osiągnął wiele celów i zrealizował plany. Krótko mówiąc, może świętować swoje osiągnięcia. Ważne jest jednak, aby nie popaść w pychę.\n\nPytający wie, że są wokół niego bliscy: wspierają go, nie jest sam."
+      },
+      "file_id": "AgACAgIAAxkBAAIGqmgNKbHxEFCiWbc3gPq1eI4bavpvAALw-DEbcI9pSMpQP7Dqj_fvAQADAgADbQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Тройка Жезлов",
+        "en": "Three of Wands",
+        "de": "Drei der Stäbe",
+        "pl": "Trójka Buław"
+      },
+      "description": {
+        "ru": "Здоровая основа для счастливого союза и блестящее будущее ожидает вопрошающего. Впереди виднеется новая ступень — успехи в романтической сфере, приятные сюрпризы и подарки. Именно сейчас ваши отношения выходят на новый, более качественный уровень. Возможно, в данный момент прерваны прежние связи, и теперь вы на пути к развитию новых.\n\nТакже Тройка Посохов может говорить о принятии важного решения — помолвке или вступлении в брак, упрочении уже созданного союза.\n\nЕсли Аркан выпал одинокому человеку, то он намекает, что текущего претендента вполне можно рассмотреть всерьез.",
+        "en": "A healthy foundation for a happy union and a brilliant future awaits the querent. A new stage is on the horizon — successes in the romantic sphere, pleasant surprises, and gifts. Your relationship is now moving to a new, higher level. Perhaps old connections have ended, and now you are on the way to developing new ones.\n\nThe Three of Wands can also indicate an important decision — engagement, marriage, or strengthening an existing union.\n\nIf the card appears for a single person, it suggests that the current candidate can be seriously considered.",
+        "de": "Eine gesunde Grundlage für eine glückliche Verbindung und eine glänzende Zukunft erwartet den Fragenden. Eine neue Stufe ist am Horizont sichtbar – Erfolge im romantischen Bereich, angenehme Überraschungen und Geschenke. Ihre Beziehung entwickelt sich jetzt auf eine neue, höhere Ebene. Vielleicht wurden alte Verbindungen kürzlich beendet und Sie sind auf dem Weg, neue aufzubauen.\n\nDie Drei der Stäbe kann auch auf eine wichtige Entscheidung hinweisen – Verlobung, Heirat oder Festigung einer bestehenden Beziehung.\n\nWenn die Karte bei einer alleinstehenden Person erscheint, deutet sie darauf hin, dass der derzeitige Kandidat ernsthaft in Betracht gezogen werden kann.",
+        "pl": "Zdrowa podstawa do szczęśliwego związku i świetlana przyszłość czeka pytającego. Na horyzoncie pojawia się nowy etap — sukcesy w sferze romantycznej, miłe niespodzianki i prezenty. Twoje relacje wchodzą teraz na nowy, wyższy poziom. Być może stare więzi zostały zerwane i teraz jesteś na drodze do budowania nowych.\n\nTrójka Buław może także wskazywać na podjęcie ważnej decyzji — zaręczyny, ślub lub umocnienie istniejącego związku.\n\nJeśli karta pojawia się osobie samotnej, sugeruje, że obecnego kandydata warto rozważyć poważnie."
+      },
+      "file_id": "AgACAgIAAxkBAAIGrGgNKdfk9OdC0FimOqXvNGC7fkqrAALx-DEbcI9pSELVnoGyUUl9AQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Двойка Жезлов",
+        "en": "Two of Wands",
+        "de": "Zwei der Stäbe",
+        "pl": "Dwójka Buław"
+      },
+      "description": {
+        "ru": "Человек готов бороться за то, что у него есть. Он здраво оценивает положение дел и понимает все нюансы ситуации, в которую попал. Гадающий стремится к власти и использует свои лидерские качества себе во благо.",
+        "en": "The person is ready to fight for what they have. They realistically assess the situation and understand all the nuances of their circumstances. The querent strives for power and uses their leadership qualities for their own benefit.",
+        "de": "Die Person ist bereit, für das, was sie hat, zu kämpfen. Sie bewertet die Lage realistisch und versteht alle Nuancen der Situation, in die sie geraten ist. Der Fragende strebt nach Macht und nutzt seine Führungsqualitäten zu seinem eigenen Vorteil.",
+        "pl": "Osoba jest gotowa walczyć o to, co posiada. Realistycznie ocenia sytuację i rozumie wszystkie niuanse swojej sytuacji. Pytający dąży do władzy i wykorzystuje swoje cechy przywódcze dla własnych korzyści."
+      },
+      "file_id": "AgACAgIAAxkBAAIGrmgNKflew936pOpuDwcHLc1fhDVyAALy-DEbcI9pSJ9yS18aIEl7AQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Туз Жезлов",
+        "en": "Ace of Wands",
+        "de": "Ass der Stäbe",
+        "pl": "As Buław"
+      },
+      "description": {
+        "ru": "Туз Жезлов означает яркие перспективы, карьерный рост, достижение целей, сигнализирует о появлении финансов для воплощения задуманного. В то же время он мотивирует к бурной деятельности, проявлению целенаправленной активности. Если ждали момента открыть свой бизнес — пора, собирались в путешествие — отправляйтесь!",
+        "en": "The Ace of Wands signifies bright prospects, career growth, and goal achievement, and signals the appearance of finances needed to realize your plans. At the same time, it motivates vigorous activity and purposeful action. If you were waiting for the moment to start your own business — it’s time; if you were planning a trip — go for it!",
+        "de": "Das Ass der Stäbe bedeutet glänzende Perspektiven, Karrierewachstum und Zielerreichung und signalisiert das Auftreten finanzieller Mittel zur Verwirklichung Ihrer Pläne. Gleichzeitig motiviert es zu intensiver Aktivität und zielgerichtetem Handeln. Wenn Sie auf den Moment gewartet haben, Ihr eigenes Geschäft zu eröffnen – jetzt ist die Zeit; wenn Sie eine Reise geplant haben – auf geht’s!",
+        "pl": "As Buław oznacza jasne perspektywy, rozwój kariery i osiąganie celów, a także sygnalizuje pojawienie się środków finansowych potrzebnych do realizacji planów. Jednocześnie motywuje do intensywnej działalności i ukierunkowanego działania. Jeśli czekałeś na moment, aby założyć własny biznes — to jest ten czas; jeśli planowałeś podróż — ruszaj w drogę!"
+      },
+      "file_id": "AgACAgIAAxkBAAIGsGgNKiFU8YZQ7C2dP5wv32c-yx6_AAL0-DEbcI9pSKaWqaUhdVhsAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Король Кубков",
+        "en": "King of Cups",
+        "de": "König der Kelche",
+        "pl": "Król Kielichów"
+      },
+      "description": {
+        "ru": "Король Кубков — это, несомненно, покровитель, лидер, который подбадривает, делится знаниями и поддерживает. Кто он: заботливый наставник или опытный адвокат? Не важно, карты не так конкретны. Большее значение имеет тот факт, что гадающий может рассчитывать на помощь.",
+        "en": "The King of Cups is undoubtedly a patron, a leader who encourages, shares knowledge, and supports. Who is he: a caring mentor or an experienced lawyer? It doesn't matter; the cards are not that specific. What matters more is that the querent can rely on help.",
+        "de": "Der König der Kelche ist zweifellos ein Förderer, ein Anführer, der ermutigt, Wissen teilt und unterstützt. Wer er genau ist – ein fürsorglicher Mentor oder ein erfahrener Anwalt – ist nicht so wichtig; die Karten sind nicht so konkret. Wichtiger ist, dass der Fragende auf Unterstützung zählen kann.",
+        "pl": "Król Kielichów to bez wątpienia patron, lider, który zachęca, dzieli się wiedzą i wspiera. Kim on jest: troskliwym mentorem czy doświadczonym adwokatem? To nie ma znaczenia; karty nie są tak precyzyjne. Ważniejsze jest to, że pytający może liczyć na pomoc."
+      },
+      "file_id": "AgACAgIAAxkBAAIGsmgNKlH1CAAB4ATXi-aUZhIjVzV9GAAC9fgxG3CPaUgvptiDP0ER9AEAAwIAA3kAAzYE"
+    },
+    {
+      "name": {
+        "ru": "Рыцарь Кубков",
+        "en": "Knight of Cups",
+        "de": "Ritter der Kelche",
+        "pl": "Rycerz Kielichów"
+      },
+      "description": {
+        "ru": "Будьте готовы вскоре узнать, если карта выпала в раскладе, кого-то влечет к вам с неудержимой силой. Он скоро прибудет и все расскажет сам. Возможно, куда-нибудь пригласит или что-то предложит. Он намерен добиться согласия и будет сходить с ума, если не получит его.",
+        "en": "Be ready to find out soon — if this card appears in a reading, someone is irresistibly drawn to you. They will soon arrive and explain everything. They may invite you somewhere or propose something. They intend to gain your consent and may go crazy if they don't get it.",
+        "de": "Seien Sie bereit, es bald herauszufinden – wenn diese Karte in einer Legung erscheint, fühlt sich jemand unwiderstehlich zu Ihnen hingezogen. Er wird bald kommen und alles selbst erzählen. Möglicherweise wird er Sie irgendwohin einladen oder etwas vorschlagen. Er ist entschlossen, Ihre Zustimmung zu erhalten, und wird verrückt, wenn er sie nicht bekommt.",
+        "pl": "Bądź gotów wkrótce się dowiedzieć – jeśli ta karta pojawia się w rozkładzie, ktoś czuje do ciebie nieodpartą siłę przyciągania. Wkrótce przybędzie i sam wszystko wyjaśni. Może zaprosi cię gdzieś lub coś zaproponuje. Jest zdecydowany uzyskać twoją zgodę i może oszaleć, jeśli jej nie otrzyma."
+      },
+      "file_id": "AgACAgIAAxkBAAIF_GgNHvn-TZ2sbIO1M-mFMplWzuwQAAJE-DEbcI9pSBa3qLb84BTuAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Паж Кубков",
+        "en": "Page of Cups",
+        "de": "Bube der Kelche",
+        "pl": "Paź Kielichów"
+      },
+      "description": {
+        "ru": "Паж Кубков предвещает добрые вести или приятные эмоции, которые вы можете получить от каких-то новостей. Также Аркан может олицетворять флирт, ненавязчивое общение, намеки на чувства. Также стоит помнить, что Паж — это всего лишь импульс, но не само действие. Поэтому, чтобы «прожить» энергию карты на все 100% и получить дальнейший результат, нужно приложить усилия и быть активными.",
+        "en": "The Page of Cups foretells good news or pleasant emotions that you may receive from some news. The Arcana can also represent flirting, light communication, and hints of feelings. It is important to remember that the Page is only an impulse, not the action itself. Therefore, to fully live out the card's energy and achieve further results, effort and active involvement are required.",
+        "de": "Der Bube der Kelche kündigt gute Nachrichten oder angenehme Emotionen an, die Sie durch irgendwelche Neuigkeiten erhalten könnten. Die Karte kann auch für Flirten, leichte Kommunikation und Andeutungen von Gefühlen stehen. Man sollte sich bewusst sein, dass der Bube nur einen Impuls darstellt, nicht die eigentliche Handlung. Um die Energie der Karte vollständig zu leben und weitere Ergebnisse zu erzielen, sind Anstrengung und aktive Teilnahme erforderlich.",
+        "pl": "Paź Kielichów zapowiada dobre wieści lub przyjemne emocje, które możesz otrzymać w związku z pewnymi wiadomościami. Arkan może także symbolizować flirt, lekką komunikację i sugestie uczuć. Warto pamiętać, że Paź to jedynie impuls, a nie samo działanie. Aby w pełni wykorzystać energię tej karty i osiągnąć dalsze rezultaty, należy włożyć wysiłek i być aktywnym."
+      },
+      "file_id": "AgACAgIAAxkBAAIGBWgNHws9ebeE22RWgcyi1kf2_pm7AAJH-DEbcI9pSN2QvcZRrUFUAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Десятка Кубков",
+        "en": "Ten of Cups",
+        "de": "Zehn der Kelche",
+        "pl": "Dziesiątka Kielichów"
+      },
+      "description": {
+        "ru": "Карта означает, что человека ждет счастливый период, полный радостных событий. Завершение проектов пройдет успешно, а в семье будут царить взаимопонимание и любовь. Может появиться неожиданная помощь, которая окажется очень кстати. Будто по мановению волшебной палочки все желания будут исполняться.",
+        "en": "The card indicates that a person is about to enter a happy period full of joyful events. Projects will be successfully completed, and understanding and love will reign in the family. Unexpected help may arrive just when needed. It will feel as if all wishes are coming true by a wave of a magic wand.",
+        "de": "Die Karte bedeutet, dass eine glückliche Zeit voller freudiger Ereignisse bevorsteht. Projekte werden erfolgreich abgeschlossen, und in der Familie werden Verständnis und Liebe herrschen. Unerwartete Hilfe könnte genau zum richtigen Zeitpunkt kommen. Es wird sich anfühlen, als ob alle Wünsche wie durch Zauberhand in Erfüllung gehen.",
+        "pl": "Karta oznacza, że człowieka czeka szczęśliwy okres pełen radosnych wydarzeń. Projekty zostaną pomyślnie zakończone, a w rodzinie zapanują zrozumienie i miłość. Może pojawić się niespodziewana pomoc w odpowiednim momencie. Wszystko będzie wyglądało tak, jakby wszystkie życzenia spełniały się za dotknięciem magicznej różdżki."
+      },
+      "file_id": "AgACAgIAAxkBAAIGuGgNKsGTCYK3oUaOjH3ISjUnHQuuAAL3-DEbcI9pSKnCdXTXjRWtAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Девятка Кубков",
+        "en": "Nine of Cups",
+        "de": "Neun der Kelche",
+        "pl": "Dziewiątka Kielichów"
+      },
+      "description": {
+        "ru": "У Аркана есть несколько значений. Во-первых, это гармония в отношениях, взаимные чувства, атмосфера романтики и счастья. Во-вторых, это встреча любимого человека, если вы пока свободны. Третья расшифровка — переход на следующий уровень в отношениях, например, помолвка, брак или совместное проживание.",
+        "en": "The Arcana has several meanings. First, it represents harmony in relationships, mutual feelings, and an atmosphere of romance and happiness. Second, it can signify meeting a loved one if you are currently single. Third, it indicates moving to the next level in a relationship, such as engagement, marriage, or living together.",
+        "de": "Der Arkana hat mehrere Bedeutungen. Erstens steht er für Harmonie in Beziehungen, gegenseitige Gefühle und eine Atmosphäre von Romantik und Glück. Zweitens kann er das Treffen eines geliebten Menschen bedeuten, wenn Sie derzeit alleinstehend sind. Drittens weist er auf den nächsten Schritt in einer Beziehung hin, wie Verlobung, Heirat oder Zusammenziehen.",
+        "pl": "Arkana ma kilka znaczeń. Po pierwsze, symbolizuje harmonię w relacjach, wzajemne uczucia i atmosferę romantyzmu oraz szczęścia. Po drugie, może oznaczać spotkanie ukochanej osoby, jeśli jesteś obecnie singlem. Po trzecie, wskazuje na przejście na wyższy poziom w związku, na przykład zaręczyny, małżeństwo lub wspólne zamieszkanie."
+      },
+      "file_id": "AgACAgIAAxkBAAIF3GgNHvM5MsjI5eqRmlnNZSXASwj8AAIg-DEbcI9pSJSFwjj0cHLzAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Семерка Кубков",
+        "en": "Seven of Cups",
+        "de": "Sieben der Kelche",
+        "pl": "Siódemka Kielichów"
+      },
+      "description": {
+        "ru": "Семерка Кубков Таро в отношениях говорит об обмане. Если у гадающего есть партнер, то кто-то в паре живет в собственных фантазиях и не видит имеющихся проблем. Иногда карта проигрывается как невероятно сильная идеализация человека и абсолютно неверное восприятие партнера. Также Семерка Кубков твердит об искушениях, которым легко поддаться. Это может говорить о нечестности и даже изменах.",
+        "en": "The Seven of Cups in relationships speaks of deception. If the querent has a partner, someone in the couple lives in their own fantasies and fails to see existing problems. Sometimes the card plays out as extreme idealization of a person and a completely inaccurate perception of the partner. The Seven of Cups also warns of temptations that are easy to succumb to, possibly indicating dishonesty or even infidelity.",
+        "de": "Die Sieben der Kelche spricht in Beziehungen von Täuschung. Wenn der Fragende einen Partner hat, lebt jemand in der Beziehung in eigenen Fantasien und übersieht bestehende Probleme. Manchmal zeigt die Karte eine extreme Idealisierung einer Person und eine völlig falsche Wahrnehmung des Partners. Die Sieben der Kelche warnt auch vor Versuchungen, denen man leicht nachgeben kann, was auf Unehrlichkeit oder sogar Untreue hindeuten kann.",
+        "pl": "Siódemka Kielichów w relacjach mówi o oszustwie. Jeśli pytający ma partnera, ktoś w parze żyje w swoich fantazjach i nie dostrzega istniejących problemów. Czasami karta przedstawia niezwykle silną idealizację osoby i całkowicie błędne postrzeganie partnera. Siódemka Kielichów ostrzega również przed pokusami, którym łatwo ulec, co może wskazywać na nieuczciwość, a nawet zdradę."
+      },
+      "file_id": "AgACAgIAAxkBAAIF0GgNHu5SnnW1D3d9sd1-gRoCNPXXAAIU-DEbcI9pSOGCo5nI8c1-AQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Шестерка Кубков",
+        "en": "Six of Cups",
+        "de": "Sechs der Kelche",
+        "pl": "Szóstka Kielichów"
+      },
+      "description": {
+        "ru": "В раскладе на любовь Шестерка Кубков говорит, что прошлое даст о себе знать. Если пара давно в отношениях, то они смогут пережить второй медовый месяц. Их буквально захлестнут эмоции, как было, когда они только начали встречаться. Также может произойти какое-то событие, которое напомнит о тех ярких романтических чувствах и возродит их.\n\nДля одиноких Аркан означает, что впереди их ждет встреча с кем-то знакомым: старым другом, соседом, одноклассником, бывшим партнером. Как бы то ни было, чувства вспыхнут, будто спичка. Возникнет ощущение, что пара всегда была вместе.",
+        "en": "In a love reading, the Six of Cups indicates that the past will resurface. If a couple has been together for a long time, they will experience a second honeymoon. Emotions will overwhelm them just like when they first started dating. An event may occur that reminds them of those vivid romantic feelings and rekindles them.\n\nFor single people, the Arcana means that a meeting with someone familiar lies ahead: an old friend, neighbor, classmate, or former partner. In any case, feelings will flare up like a match. There will be a sense that the couple has always been together.",
+        "de": "In einer Liebeslegung weist die Sechs der Kelche darauf hin, dass die Vergangenheit sich wieder bemerkbar macht. Wenn ein Paar schon lange zusammen ist, wird es eine zweite Flitterwochen-Phase erleben. Die Emotionen werden sie überwältigen, so wie damals, als sie sich gerade erst kennengelernt haben. Ein Ereignis könnte eintreten, das an diese intensiven romantischen Gefühle erinnert und sie neu entfacht.\n\nFür Singles bedeutet der Arkana, dass eine Begegnung mit jemand Vertrautem bevorsteht: ein alter Freund, Nachbar, Klassenkamerad oder Ex-Partner. In jedem Fall werden die Gefühle wie ein Streichholz aufflammen. Es wird sich anfühlen, als wären sie schon immer zusammen gewesen.",
+        "pl": "W rozkładzie na miłość Szóstka Kielichów mówi o tym, że przeszłość da o sobie znać. Jeśli para jest ze sobą od dawna, przeżyją drugą podróż poślubną. Emocje ogarną ich tak, jak wtedy, gdy dopiero zaczynali się spotykać. Może również wydarzyć się coś, co przypomni im o dawnych romantycznych uczuciach i odrodzi je.\n\nDla samotnych Arkan oznacza, że przed nimi spotkanie z kimś znajomym: starym przyjacielem, sąsiadem, kolegą ze szkoły lub byłym partnerem. W każdym przypadku uczucia rozbłysną niczym zapałka. Powstanie wrażenie, że para zawsze była razem."
+      },
+      "file_id": "AgACAgIAAxkBAAIGB2gNHwszsMOYem3E8bccCCl469bPAAJL-DEbcI9pSBB17kBbpy0hAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Пятерка Кубков",
+        "en": "Five of Cups",
+        "de": "Fünf der Kelche",
+        "pl": "Piątka Kielichów"
+      },
+      "description": {
+        "ru": "Планы рушатся, обещания не исполняются, все идет совершенно не по плану. В профессиональной сфере намечаются колоссальные проблемы, которые грозят срывом важной сделки, неудачными приобретениями. Появится желание сбежать от проблем, карты тоже советуют взять паузу, если это возможно, а затем найти причину всех бед (можно обратиться к коллегам за помощью) и устранить ее.",
+        "en": "Plans are falling apart, promises are not being fulfilled, and everything is going completely off track. In the professional sphere, major problems are looming that threaten the failure of important deals or bad purchases. There will be a desire to run away from problems, and the cards also advise taking a break if possible, then identifying the cause of the troubles (seeking help from colleagues is recommended) and resolving it.",
+        "de": "Pläne zerbrechen, Versprechen werden nicht eingehalten, alles läuft völlig aus dem Ruder. Im beruflichen Bereich zeichnen sich massive Probleme ab, die den Abbruch wichtiger Geschäfte oder Fehlkäufe zur Folge haben könnten. Es wird das Bedürfnis entstehen, vor Problemen zu fliehen; die Karten raten ebenfalls, eine Pause einzulegen, wenn möglich, und dann die Ursache des Übels zu finden (man kann sich an Kollegen um Hilfe wenden) und sie zu beseitigen.",
+        "pl": "Plany się rozpadają, obietnice nie są dotrzymywane, wszystko idzie niezgodnie z planem. W sferze zawodowej pojawiają się poważne problemy, które mogą grozić zerwaniem ważnej umowy lub nieudanym zakupem. Pojawi się chęć ucieczki od problemów; karty radzą również, aby zrobić sobie przerwę, jeśli to możliwe, a następnie znaleźć przyczynę wszystkich kłopotów (można zwrócić się o pomoc do współpracowników) i ją wyeliminować."
+      },
+      "file_id": "AgACAgIAAxkBAAIGwGgNK3XILF4iJf7mwrSgmCiCJOHTAAL--DEbcI9pSIsuD5uwydGbAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Четверка Кубков",
+        "en": "Four of Cups",
+        "de": "Vier der Kelche",
+        "pl": "Czwórka Kielichów"
+      },
+      "description": {
+        "ru": "Разочарование в любви, отсутствие интереса к партнеру, скука в отношениях. Если человек дорог, то есть смысл встряхнуться, найти общее дело. Также карта может означать отрицательный настрой по отношению к другому полу, из-за которого отношения не складываются.\n\nУ одиноких, скорее всего, нет желания погружаться в новый роман. Это нормально, особенно если разрыв был совсем недавно. Но карты советуют не углубляться в негативные переживания, иначе есть риск упустить большую любовь.",
+        "en": "Disappointment in love, lack of interest in a partner, boredom in the relationship. If the person is dear, it's worth making an effort to revive the bond by finding a common activity. The card may also indicate a negative attitude towards the opposite sex, preventing new relationships.\n\nFor singles, there may be a reluctance to dive into a new romance, especially after a recent breakup. However, the cards advise not to dwell on negative feelings, or there is a risk of missing out on great love.",
+        "de": "Enttäuschung in der Liebe, mangelndes Interesse am Partner, Langeweile in der Beziehung. Wenn einem der Partner wichtig ist, sollte man versuchen, die Beziehung durch gemeinsame Aktivitäten aufzufrischen. Die Karte kann auch auf eine negative Einstellung gegenüber dem anderen Geschlecht hinweisen, die neue Beziehungen verhindert.\n\nBei Alleinstehenden zeigt die Karte möglicherweise eine Abneigung gegenüber neuen Romanzen, insbesondere nach einer kürzlichen Trennung. Die Karten raten jedoch, sich nicht in negativen Gefühlen zu verlieren, um die große Liebe nicht zu verpassen.",
+        "pl": "Rozczarowanie w miłości, brak zainteresowania partnerem, nuda w związku. Jeśli osoba jest bliska sercu, warto spróbować ożywić relację poprzez wspólne zainteresowania. Karta może również wskazywać na negatywne nastawienie do płci przeciwnej, które uniemożliwia nowe relacje.\n\nDla singli karta wskazuje na niechęć do zaangażowania się w nowy romans, zwłaszcza po niedawnym rozstaniu. Jednak karty radzą, aby nie pogrążać się w negatywnych emocjach, aby nie przegapić wielkiej miłości."
+      },
+      "file_id": "AgACAgIAAxkBAAIGwmgNK5fQ1hoCGH_TUc3DZv_hZ6iCAAIC-TEbcI9pSI-h5eqrLZBkAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Тройка Кубков",
+        "en": "Three of Cups",
+        "de": "Drei der Kelche",
+        "pl": "Trójka Kielichów"
+      },
+      "description": {
+        "ru": "Тройка Кубков предвещает выход из кризиса, наступление белой полосы в жизни, исполнение желаний и, как элемент Воды, символизирует предстоящие чувства кверента: счастье, радость, чувство победы и уверенности в завтрашнем дне.\n\nВ отношениях с людьми карта предрекает комфорт, доверие, взаимопонимание. Не будет лишним уделить немного больше времени родным и близким, чтобы привнести в душевное состояние побольше тепла и уюта, удвоить положительные эмоции.",
+        "en": "The Three of Cups foretells a recovery from crisis, the beginning of a bright period in life, fulfillment of wishes, and, as a Water element, symbolizes upcoming emotions: happiness, joy, a sense of victory, and confidence in the future.\n\nIn relationships, it predicts comfort, trust, and mutual understanding. It would be good to devote more time to loved ones to add warmth and coziness, doubling positive emotions.",
+        "de": "Die Drei der Kelche kündigt den Ausstieg aus der Krise, den Beginn einer glücklichen Lebensphase und die Erfüllung von Wünschen an. Als Wasserelement symbolisiert sie bevorstehende Gefühle: Glück, Freude, das Gefühl des Sieges und Zuversicht in die Zukunft.\n\nIn Beziehungen verspricht sie Komfort, Vertrauen und gegenseitiges Verständnis. Es wäre gut, der Familie und den Freunden mehr Zeit zu widmen, um mehr Wärme und Gemütlichkeit ins Leben zu bringen.",
+        "pl": "Trójka Kielichów zapowiada wyjście z kryzysu, początek jasnego okresu w życiu, spełnienie życzeń i jako element Wody symbolizuje nadchodzące uczucia: szczęście, radość, poczucie zwycięstwa i pewność jutra.\n\nW relacjach zapowiada komfort, zaufanie i wzajemne zrozumienie. Warto poświęcić więcej czasu rodzinie i bliskim, aby wnieść więcej ciepła i przytulności, podwajając pozytywne emocje."
+      },
+      "file_id": "AgACAgIAAxkBAAIGEWgNHwwS2FyDwpde9hiRK0nZslLwAAJV-DEbcI9pSF1PoWZHmSrhAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Двойка Кубков",
+        "en": "Two of Cups",
+        "de": "Zwei der Kelche",
+        "pl": "Dwójka Kielichów"
+      },
+      "description": {
+        "ru": "Двойка Кубков обещает обретение любимого человека, романтический период, душевную близость с будущим партнером. Союз будет наполнен нежностью и лаской, партнер будет понимать гадающего будто бы с полуслова. Исход такого союза чаще всего брак, но это будет не скоропалительным решением. Понадобится некоторое время, пока два нашедших друг друга сердца не насладятся периодом беззаботности и новизны.",
+        "en": "The Two of Cups promises the meeting of a beloved, a romantic period, and emotional closeness with a future partner. The union will be filled with tenderness and affection, and the partner will seem to understand the querent without words. Such a union often leads to marriage, but it will not be a hasty decision. Time will be needed for the two hearts to fully enjoy the carefree period and the freshness of new love.",
+        "de": "Die Zwei der Kelche verspricht das Finden eines geliebten Menschen, eine romantische Phase und seelische Nähe zum zukünftigen Partner. Die Verbindung wird von Zärtlichkeit und Liebe geprägt sein, und der Partner wird den Fragenden scheinbar wortlos verstehen. Eine solche Verbindung führt oft zur Ehe, jedoch nicht überstürzt. Es braucht Zeit, damit sich die beiden Herzen an der Unbeschwertheit und Frische ihrer Liebe erfreuen können.",
+        "pl": "Dwójka Kielichów obiecuje odnalezienie ukochanej osoby, romantyczny okres i bliskość emocjonalną z przyszłym partnerem. Związek będzie pełen czułości i delikatności, a partner będzie rozumiał pytającego niemal bez słów. Taki związek często prowadzi do małżeństwa, ale nie będzie to pochopna decyzja. Potrzeba czasu, aby dwie odnalezione dusze mogły w pełni cieszyć się okresem beztroski i nowości."
+      },
+      "file_id": "AgACAgIAAxkBAAIGyGgNK_ga1xX2weTTEl9r-a7uEuCKAAIH-TEbcI9pSFl2lGBbQsaOAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Туз Кубков",
+        "en": "Ace of Cups",
+        "de": "Ass der Kelche",
+        "pl": "As Kielichów"
+      },
+      "description": {
+        "ru": "Туз Кубков Таро в отношениях, которые уже сформировались, показывает примирение после ссор, рождение ребенка, эмоциональный потенциал, который оживит отношения. Если брак пока не был заключен, вопрошающему дается шанс на любовь. Ее не придется ждать годами, искать. Ситуация сформировалась, остается распорядиться даром.",
+        "en": "The Ace of Cups in established relationships shows reconciliation after quarrels, the birth of a child, and emotional potential that will rejuvenate the relationship. If marriage has not yet occurred, the querent is being given a chance at love. It won't require years of searching — the situation is already formed; it remains only to seize the gift.",
+        "de": "Das Ass der Kelche zeigt in bestehenden Beziehungen Versöhnung nach Streitigkeiten, die Geburt eines Kindes und das emotionale Potenzial, das die Beziehung beleben wird. Wenn noch keine Ehe geschlossen wurde, erhält der Fragende die Chance auf Liebe. Es wird nicht jahrelanges Suchen erfordern – die Gelegenheit ist bereits vorhanden, es gilt nur, sie zu nutzen.",
+        "pl": "As Kielichów w już ugruntowanych związkach wskazuje na pojednanie po kłótniach, narodziny dziecka i emocjonalny potencjał, który ożywi relację. Jeśli małżeństwo nie zostało jeszcze zawarte, pytający otrzymuje szansę na miłość. Nie będzie trzeba lat poszukiwań – sytuacja już się uformowała; wystarczy skorzystać z daru."
+      },
+      "file_id": "AgACAgIAAxkBAAIGymgNLBYFpk_k1DbR1BEyhNtHE2DRAAII-TEbcI9pSNG0C-nN7HtgAQADAgADbQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Король Мечей",
+        "en": "King of Swords",
+        "de": "König der Schwerter",
+        "pl": "Król Mieczy"
+      },
+      "description": {
+        "ru": "Если говорить о жизни в целом, то по Королю Мечей проходят этапы, когда вопрошающему необходимо проявить качества этого Аркана: упорство, холодное спокойствие, четкость и рациональность. Человек ведет себя уверенно, может договориться, проанализировать и сделать рациональные выводы о тех или иных событиях.\n\nТакже Король Мечей может указать на помощь со стороны вышестоящего человека.",
+        "en": "In general life matters, the King of Swords marks stages when the querent needs to embody the qualities of this Arcana: perseverance, cold composure, clarity, and rationality. The person behaves confidently, can negotiate, analyze, and draw rational conclusions about events.\n\nThe King of Swords can also indicate assistance from a higher-ranking individual.",
+        "de": "Im Leben insgesamt weist der König der Schwerter auf Phasen hin, in denen der Fragende die Eigenschaften dieser Karte verkörpern muss: Ausdauer, kühle Gelassenheit, Klarheit und Rationalität. Die Person tritt selbstbewusst auf, kann verhandeln, analysieren und rationale Schlussfolgerungen über Ereignisse ziehen.\n\nDer König der Schwerter kann auch auf die Unterstützung durch eine höhergestellte Person hinweisen.",
+        "pl": "W ogólnym życiu Król Mieczy wskazuje na etapy, w których pytający musi przejawiać cechy tej Arkan: wytrwałość, chłodną opanowanie, jasność i racjonalność. Osoba zachowuje się pewnie, potrafi negocjować, analizować i wyciągać racjonalne wnioski z wydarzeń.\n\nKról Mieczy może również wskazywać na pomoc ze strony osoby wyższej rangi."
+      },
+      "file_id": "AgACAgIAAxkBAAIF-mgNHvlrfZwnVYFf4hGN5YWSMOHVAAI2-DEbcI9pSFa7h-Gy6ItTAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Королева Мечей",
+        "en": "Queen of Swords",
+        "de": "Königin der Schwerter",
+        "pl": "Królowa Mieczy"
+      },
+      "description": {
+        "ru": "Королева Мечей прямо не говорит ни о финансовой прибыли, ни о потерях. Она указывает на необходимость грамотно распоряжаться деньгами и тщательно планировать расходы.\n\nВозможно, ради достижения большей финансовой цели в указанный период вам стоит быть экономнее и расчетливее.",
+        "en": "The Queen of Swords does not directly indicate financial gain or loss. Instead, she points to the need for wise money management and careful budgeting.\n\nTo achieve greater financial goals during this period, it may be necessary to be more economical and strategic.",
+        "de": "Die Königin der Schwerter spricht nicht direkt von finanziellen Gewinnen oder Verlusten. Vielmehr weist sie auf die Notwendigkeit hin, klug mit Geld umzugehen und Ausgaben sorgfältig zu planen.\n\nUm größere finanzielle Ziele zu erreichen, könnte es notwendig sein, sparsamer und überlegter zu handeln.",
+        "pl": "Królowa Mieczy nie mówi bezpośrednio o zyskach ani stratach finansowych. Wskazuje raczej na konieczność mądrego zarządzania pieniędzmi i dokładnego planowania wydatków.\n\nAby osiągnąć większe cele finansowe, może być konieczne bardziej oszczędne i przemyślane podejście."
+      },
+      "file_id": "AgACAgIAAxkBAAIGAWgNHwsU1Lte0lrlXZuH7iUj1_efAAJC-DEbcI9pSCm-Ew8hv8JSAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Рыцарь Мечей",
+        "en": "Knight of Swords",
+        "de": "Ritter der Schwerter",
+        "pl": "Rycerz Mieczy"
+      },
+      "description": {
+        "ru": "Выпавший в раскладе Рыцарь Мечей в прямом положении говорит о большом потенциале, активности и воодушевлении. Человек способен хорошо себя зарекомендовать в нужной ситуации, поразить знаниями и ораторским мастерством. Но это также и карта эгоистичности, хотя и есть попытки применить свои навыки на благо других людей.",
+        "en": "The Knight of Swords appearing upright in a reading indicates great potential, activity, and enthusiasm. The person can prove themselves well in important situations, impressing with knowledge and oratory skills. However, it is also a card of selfishness, even though there are attempts to use these skills for the benefit of others.",
+        "de": "Der Ritter der Schwerter im aufrechten Zustand weist auf großes Potenzial, Aktivität und Begeisterung hin. Die Person kann sich in wichtigen Situationen gut behaupten und mit Wissen und Redekunst beeindrucken. Es ist jedoch auch eine Karte des Egoismus, obwohl es Versuche gibt, die eigenen Fähigkeiten zum Wohle anderer einzusetzen.",
+        "pl": "Rycerz Mieczy w pozycji prostej wskazuje na wielki potencjał, aktywność i entuzjazm. Osoba potrafi dobrze się zaprezentować w odpowiedniej sytuacji, imponując wiedzą i umiejętnościami oratorskimi. Jednak jest to również karta egoizmu, mimo prób wykorzystania swoich umiejętności na korzyść innych."
+      },
+      "file_id": "AgACAgIAAxkBAAIG0GgNLHj1J04m_8xB4H_MY8lEFfqQAAIL-TEbcI9pSKi5fM9fvGYQAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Паж Мечей",
+        "en": "Page of Swords",
+        "de": "Bube der Schwerter",
+        "pl": "Paź Mieczy"
+      },
+      "description": {
+        "ru": "Паж Мечей Таро в отношениях не самый простой партнер. Он следит и наблюдает, контролирует, проверяет и перепроверяет. Но его внимание приковано к поверхностным деталям, он не столь проницателен, как более опытные представители масти. А потому зрелый партнер в отношениях с Пажом Мечей надолго не задерживается.",
+        "en": "The Page of Swords in relationships is not the easiest partner. They watch, observe, control, and check repeatedly. However, their attention is focused on superficial details, and they are not as perceptive as more mature figures of the suit. Thus, a mature partner is unlikely to stay long in a relationship with the Page of Swords.",
+        "de": "Der Bube der Schwerter ist in Beziehungen kein einfacher Partner. Er beobachtet, kontrolliert und überprüft ständig. Sein Augenmerk liegt jedoch auf oberflächlichen Details, und er ist nicht so scharfsinnig wie reifere Vertreter der Schwerter. Daher bleibt ein reifer Partner in einer Beziehung mit dem Buben der Schwerter selten lange.",
+        "pl": "Paź Mieczy w relacjach nie jest najłatwiejszym partnerem. Obserwuje, kontroluje i sprawdza wielokrotnie. Jednak jego uwaga skupia się na powierzchownych detalach i nie jest tak przenikliwy jak bardziej doświadczeni przedstawiciele dworu. Dlatego dojrzały partner raczej nie pozostanie długo w związku z Paziem Mieczy."
+      },
+      "file_id": "AgACAgIAAxkBAAIG0mgNLJrcvoroqMm2snjX0C1NPefLAAIP-TEbcI9pSOVE0WqWO_yZAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Десятка Мечей",
+        "en": "Ten of Swords",
+        "de": "Zehn der Schwerter",
+        "pl": "Dziesiątka Mieczy"
+      },
+      "description": {
+        "ru": "Карта говорит о разрыве союза. Причиной этому может быть измена одного из возлюбленных или наличие недопонимания между мужчиной и женщиной. Распад любовного тандема станет для вас очень тяжелым, вы будете долго переживать по этому поводу. Однако отчаиваться не стоит. Отпустив человека, вы перейдете на более благоприятный этап жизни, который сулит новую любовь.",
+        "en": "The card speaks of the breakup of a union. The cause may be the betrayal of one of the lovers or a deep misunderstanding between partners. The end of the relationship will be painful, and you may grieve for a long time. However, you should not despair. By letting go of the person, you will move on to a more favorable stage in life, which promises new love.",
+        "de": "Die Karte spricht von der Auflösung einer Beziehung. Die Ursache kann der Betrug eines Partners oder ein tiefes Missverständnis zwischen den Partnern sein. Das Ende der Beziehung wird schmerzhaft sein, und Sie werden lange darunter leiden. Doch Sie sollten nicht verzweifeln. Wenn Sie die Person loslassen, treten Sie in eine günstigere Lebensphase ein, die neue Liebe verspricht.",
+        "pl": "Karta mówi o rozpadzie związku. Przyczyną może być zdrada jednego z kochanków lub głębokie nieporozumienie między partnerami. Rozpad związku będzie bolesny i możesz długo przeżywać ten stan. Jednak nie należy rozpaczać. Pozwalając odejść tej osobie, wejdziesz w bardziej sprzyjający etap życia, który obiecuje nową miłość."
+      },
+      "file_id": "AgACAgIAAxkBAAIG1GgNLMCAc_HHKU-NyuL2B87_BNkVAAIR-TEbcI9pSAkzMTQETgTBAQADAgADbQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Девятка Мечей",
+        "en": "Nine of Swords",
+        "de": "Neun der Schwerter",
+        "pl": "Dziewiątka Mieczy"
+      },
+      "description": {
+        "ru": "Девятка Мечей указывает далеко не на самый приятный ход вещей. Гадающего ждут финансовые потери, и довольно серьезные! Избежать этого не получится: к текущей ситуации привело множество событий в прошлом. Так что, излишние траты в никуда неминуемы.\n\nАркан также подсказывает, что кто-то желает вас обмануть.",
+        "en": "The Nine of Swords points to a rather unpleasant course of events. The querent is facing financial losses, and they are quite serious! It will not be possible to avoid them, as many past events have led to the current situation. Thus, unnecessary expenses are inevitable.\n\nThe Arcana also hints that someone might be trying to deceive you.",
+        "de": "Die Neun der Schwerter deutet auf einen unangenehmen Verlauf der Dinge hin. Den Fragenden erwarten finanzielle Verluste, und zwar beträchtliche! Es wird nicht möglich sein, dies zu vermeiden, da viele vergangene Ereignisse zur aktuellen Situation geführt haben. Unnötige Ausgaben sind daher unvermeidlich.\n\nDer Arkana weist auch darauf hin, dass jemand versucht, Sie zu täuschen.",
+        "pl": "Dziewiątka Mieczy wskazuje na niezbyt przyjemny przebieg wydarzeń. Pytającego czekają straty finansowe, i to dość poważne! Nie uda się ich uniknąć, ponieważ do obecnej sytuacji doprowadziło wiele wcześniejszych wydarzeń. Zbyteczne wydatki są więc nieuniknione.\n\nArkan podpowiada również, że ktoś może próbować cię oszukać."
+      },
+      "file_id": "AgACAgIAAxkBAAIG1mgNLOU06Cb2AymICq-9WM2dvx0vAAIU-TEbcI9pSOYN4fiXECAyAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Восьмерка Мечей",
+        "en": "Eight of Swords",
+        "de": "Acht der Schwerter",
+        "pl": "Ósemka Mieczy"
+      },
+      "description": {
+        "ru": "В семье творится что-то неладное. Сказывается разница в характерах и мировоззрении. Брак под угрозой, в нем прослеживается череда конфликтов, причем никто не хочет уступать. Но не спешите, расстаться вы всегда успеете. Карты говорят, что, возможно, виной рассинхрона является ваша лень. Но, все же, коли уж так вышло, что отношения изжили себя, медлить не стоит.\n\nОдиноким Аркан советует вылезать из своей скорлупы. Если бояться отказов и боли, можно упустить большую любовь.",
+        "en": "Something is wrong in the family. Differences in character and worldview are becoming apparent. The marriage is under threat, with a series of conflicts where no one wants to compromise. However, do not rush; separation can always happen later. The cards suggest that perhaps your laziness is partly to blame for the discord. Still, if the relationship has truly exhausted itself, delaying is not advised.\n\nFor singles, the Arcana advises coming out of your shell. Fearing rejection and pain can cause you to miss out on great love.",
+        "de": "In der Familie läuft etwas schief. Unterschiedliche Charaktere und Weltanschauungen machen sich bemerkbar. Die Ehe steht auf dem Spiel, eine Reihe von Konflikten zeigt sich, und niemand will nachgeben. Aber beeilen Sie sich nicht, eine Trennung ist immer noch möglich. Die Karten sagen, dass vielleicht Ihre eigene Trägheit an der Disharmonie schuld ist. Wenn jedoch die Beziehung ihr Ende erreicht hat, sollte man nicht zögern.\n\nSingles rät der Arkana, aus ihrer Schale zu kommen. Wer Angst vor Ablehnung und Schmerz hat, könnte eine große Liebe verpassen.",
+        "pl": "W rodzinie dzieje się coś niedobrego. Uwypuklają się różnice w charakterze i światopoglądzie. Małżeństwo jest zagrożone, pojawia się seria konfliktów, a żadna ze stron nie chce ustąpić. Jednak nie spiesz się z rozstaniem, zawsze zdążysz. Karty sugerują, że być może za rozbieżności odpowiada twoje lenistwo. Jeśli jednak związek się wyczerpał, nie warto zwlekać.\n\nDla singli Arkan radzi wyjść ze swojej skorupy. Strach przed odrzuceniem i bólem może sprawić, że przegapisz wielką miłość."
+      },
+      "file_id": "AgACAgIAAxkBAAIF62gNHvgeTero9-pIvXlvTVKYRmUIAAIx-DEbcI9pSEeY1tFoRBRKAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Семерка Мечей",
+        "en": "Seven of Swords",
+        "de": "Sieben der Schwerter",
+        "pl": "Siódemka Mieczy"
+      },
+      "description": {
+        "ru": "Отношения состоят из конфликтов, недоверия или скрытых проблем. Это время борьбы и неопределенности, когда важно быть бдительным и открытым для обсуждения возможных трудностей. В прямом положении Аркан может указывать на недоверие или предательство в союзе.\n\nОдинокому же человеку карта рекомендует быть избирательнее в избранниках: возможно тот, к выбору кого вы склоняетесь, не стоит вашего внимания и не привнесет в жизнь ничего хорошего.",
+        "en": "Relationships are filled with conflicts, distrust, or hidden problems. This is a time of struggle and uncertainty, when it is important to stay vigilant and open to discussing difficulties. Upright, the Arcana can point to distrust or betrayal within a relationship.\n\nFor singles, the card advises being more selective when choosing partners: the one you are considering may not be worthy of your attention and could bring nothing good to your life.",
+        "de": "Beziehungen bestehen aus Konflikten, Misstrauen oder verborgenen Problemen. Dies ist eine Zeit des Kampfes und der Unsicherheit, in der es wichtig ist, wachsam zu bleiben und offen über Schwierigkeiten zu sprechen. Im aufrechten Zustand kann die Arkana auf Misstrauen oder Verrat in der Beziehung hinweisen.\n\nAlleinstehenden rät die Karte, bei der Partnerwahl wählerischer zu sein: Die Person, für die Sie sich interessieren, ist möglicherweise nicht Ihres Vertrauens würdig und bringt nichts Gutes in Ihr Leben.",
+        "pl": "Relacje składają się z konfliktów, braku zaufania lub ukrytych problemów. To czas walki i niepewności, kiedy ważne jest zachowanie czujności i otwartości na rozmowy o trudnościach. W pozycji prostej Arkan może wskazywać na brak zaufania lub zdradę w związku.\n\nDla singli karta radzi być bardziej wybrednym w wyborze partnera: osoba, nad którą się zastanawiasz, może nie być warta twojej uwagi i nie przynieść niczego dobrego do twojego życia."
+      },
+      "file_id": "AgACAgIAAxkBAAIF4mgNHvNt7Z5Gj3ym8IQDeJqlAAHNPAACJvgxG3CPaUgJnnQQpe3CxQEAAwIAA3gAAzYE"
+    },
+    {
+      "name": {
+        "ru": "Шестерка Мечей",
+        "en": "Six of Swords",
+        "de": "Sechs der Schwerter",
+        "pl": "Szóstka Mieczy"
+      },
+      "description": {
+        "ru": "Шестерка Мечей — это возвращение к работе после перерыва или трудоустройство на новое место. Карта указывает на сложное положение, ведь новичку придется усвоить много новой информации, набраться опыта. Во всяком случае, у тех, кто усердно возьмется за работу, все обязательно получится — период застоя закончился.",
+        "en": "The Six of Swords represents returning to work after a break or starting at a new job. The card points to a challenging situation, as the newcomer must absorb a lot of new information and gain experience. In any case, for those who diligently apply themselves, success is guaranteed — the stagnation period is over.",
+        "de": "Die Sechs der Schwerter symbolisiert die Rückkehr zur Arbeit nach einer Pause oder den Einstieg in eine neue Arbeitsstelle. Die Karte deutet auf eine schwierige Situation hin, da der Neuling viel neue Informationen aufnehmen und Erfahrung sammeln muss. Für diejenigen, die fleißig arbeiten, ist der Erfolg jedoch sicher — die Zeit der Stagnation ist vorbei.",
+        "pl": "Szóstka Mieczy oznacza powrót do pracy po przerwie lub rozpoczęcie nowej pracy. Karta wskazuje na trudną sytuację, ponieważ nowicjusz będzie musiał przyswoić wiele nowych informacji i zdobyć doświadczenie. Jednak ci, którzy podejdą do pracy sumiennie, na pewno odniosą sukces — okres stagnacji dobiegł końca."
+      },
+      "file_id": "AgACAgIAAxkBAAIG3GgNLU-F_trgI3pnaTEYlB5mhA-8AAIa-TEbcI9pSBBkFNfQJohhAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Пятерка Мечей",
+        "en": "Five of Swords",
+        "de": "Fünf der Schwerter",
+        "pl": "Piątka Mieczy"
+      },
+      "description": {
+        "ru": "Аркан рекомендует гадающему проанализировать совершенную работу и провести работу над ошибками. Нужно понять, что было сделано не так, почему усилия не увенчались успехом. Идти проверенным путем не получится, а позитива в делах не будет. Нужно готовиться к переменам и меняться самому.",
+        "en": "The Arcana advises the querent to analyze the work done and to conduct a review of mistakes. It is necessary to understand what went wrong and why the efforts did not succeed. Following the usual path will not work, and positive results are unlikely. One must prepare for changes and undergo personal transformation.",
+        "de": "Die Arkana rät dem Fragenden, die geleistete Arbeit zu analysieren und eine Fehleranalyse durchzuführen. Es ist wichtig zu verstehen, was falsch gelaufen ist und warum die Bemühungen erfolglos blieben. Den gewohnten Weg weiterzugehen wird nicht funktionieren, und positive Ergebnisse sind unwahrscheinlich. Man muss sich auf Veränderungen vorbereiten und sich selbst weiterentwickeln.",
+        "pl": "Arkan radzi pytającemu przeanalizować wykonaną pracę i przeprowadzić analizę błędów. Należy zrozumieć, co poszło nie tak i dlaczego wysiłki nie zakończyły się sukcesem. Podążanie utartą ścieżką nie przyniesie pozytywnych rezultatów. Trzeba przygotować się na zmiany i samemu się zmieniać."
+      },
+      "file_id": "AgACAgIAAxkBAAIF7mgNHvjhtPfNiXPGsG8ORqifMLHtAAJB-DEbcI9pSP2SbY1sTo4qAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Четверка Мечей",
+        "en": "Four of Swords",
+        "de": "Vier der Schwerter",
+        "pl": "Czwórka Mieczy"
+      },
+      "description": {
+        "ru": "Четверка Мечей в прямом положении говорит о том, что на данный момент невозможно повлиять на сложившиеся обстоятельства, поэтому есть смысл немного приотпустить их, поставить на паузу и созерцать со стороны: решение найдется позднее. Сама собой проблема не устранится, но выделенное на ее осмысление время не будет потрачено зря, и кверент поймет, как следует действовать.\n\nТакже карта может сообщать о том, что жизненные трудности подходят к концу. Скоро наступит долгожданный отдых, во время которого получится перезарядиться и настроиться на новые подвиги.",
+        "en": "The Four of Swords upright suggests that it is currently impossible to influence the circumstances, so it makes sense to release them slightly, pause, and observe from the outside: the solution will appear later. The problem will not resolve itself, but the time spent contemplating it will not be wasted, and the querent will understand how to act.\n\nThe card can also indicate that life's difficulties are nearing an end. A long-awaited rest is approaching, during which it will be possible to recharge and prepare for new achievements.",
+        "de": "Die Vier der Schwerter im aufrechten Zustand zeigt an, dass es derzeit unmöglich ist, die Umstände zu beeinflussen. Es ist sinnvoll, sie etwas loszulassen, eine Pause einzulegen und aus der Ferne zu beobachten: Eine Lösung wird sich später finden. Das Problem wird sich nicht von selbst lösen, aber die investierte Zeit wird nicht vergeudet sein, und der Fragende wird wissen, wie er handeln muss.\n\nDie Karte kann auch darauf hinweisen, dass die Schwierigkeiten des Lebens bald enden. Eine lang ersehnte Pause steht bevor, in der man sich erholen und für neue Herausforderungen bereitmachen kann.",
+        "pl": "Czwórka Mieczy w pozycji prostej wskazuje, że obecnie nie można wpłynąć na zaistniałe okoliczności, dlatego warto trochę je odpuścić, zrobić pauzę i obserwować z boku: rozwiązanie pojawi się później. Problem nie rozwiąże się sam, ale czas przeznaczony na jego przemyślenie nie będzie stracony, a pytający zrozumie, jak działać.\n\nKarta może również oznaczać, że życiowe trudności zbliżają się ku końcowi. Wkrótce nadejdzie upragniony odpoczynek, podczas którego będzie można się naładować i przygotować na nowe wyzwania."
+      },
+      "file_id": "AgACAgIAAxkBAAIF8mgNHviorkSzgwVJ-RycpzpdHlfxAAJD-DEbcI9pSMhtJ956gyh-AQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Двойка Мечей",
+        "en": "Two of Swords",
+        "de": "Zwei der Schwerter",
+        "pl": "Dwójka Mieczy"
+      },
+      "description": {
+        "ru": "В контексте здоровья Аркан может означать, что нужно уделить особое внимание своему внутреннему состоянию. Физический дискомфорт, который вы, вероятно, испытываете, может быть связан со стрессом, переживаниями и негативными эмоциями. Конечно, не стоит пренебрегать медицинской помощью, но и над ментальным здоровьем тоже важно работать.\n\nАркан можно расшифровать и так: вы полностью погружены в заботу о близких и совсем забыли о себе. Необходимо найти баланс между всеми сферами жизни — тогда здоровье станет лучше.",
+        "en": "In the context of health, the Arcana may indicate that special attention should be paid to your internal state. The physical discomfort you are likely experiencing may be linked to stress, worries, and negative emotions. Of course, medical assistance should not be neglected, but working on mental health is equally important.\n\nAnother interpretation: you are completely immersed in caring for others and have forgotten about yourself. Finding balance between all areas of life will help improve your health.",
+        "de": "Im Zusammenhang mit der Gesundheit kann die Arkana darauf hinweisen, dass Sie Ihrem inneren Zustand besondere Aufmerksamkeit schenken sollten. Das körperliche Unwohlsein, das Sie wahrscheinlich verspüren, könnte mit Stress, Sorgen und negativen Emotionen zusammenhängen. Natürlich sollte ärztliche Hilfe nicht vernachlässigt werden, aber auch an der mentalen Gesundheit muss gearbeitet werden.\n\nEine weitere Interpretation: Sie sind völlig in die Fürsorge für andere vertieft und haben sich selbst vergessen. Ein Gleichgewicht zwischen allen Lebensbereichen zu finden, wird helfen, die Gesundheit zu verbessern.",
+        "pl": "W kontekście zdrowia Arkan może oznaczać, że należy zwrócić szczególną uwagę na swój stan wewnętrzny. Dyskomfort fizyczny, którego prawdopodobnie doświadczasz, może być związany ze stresem, zmartwieniami i negatywnymi emocjami. Oczywiście nie należy zaniedbywać pomocy medycznej, ale równie ważna jest praca nad zdrowiem psychicznym.\n\nInna interpretacja: jesteś całkowicie pochłonięty opieką nad innymi i zapomniałeś o sobie. Znalezienie równowagi między wszystkimi sferami życia pomoże poprawić zdrowie."
+      },
+      "file_id": "AgACAgIAAxkBAAIGD2gNHwzuy-m9dMgOJ7bRAXIvZpB7AAJX-DEbcI9pSLwRjnXlRpMJAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Туз Мечей",
+        "en": "Ace of Swords",
+        "de": "Ass der Schwerter",
+        "pl": "As Mieczy"
+      },
+      "description": {
+        "ru": "Чаще всего карта показывает волевое бескомпромиссное давление одного партнера на другого. Это тот момент, когда становится понятно, что «так больше жить нельзя», нужно что-то обязательно менять, чтобы сохранить отношения и не разочароваться.",
+        "en": "Most often, the card indicates a forceful, uncompromising pressure of one partner on the other. It marks the moment when it becomes clear that 'life cannot continue like this' — something must change to preserve the relationship and avoid disappointment.",
+        "de": "Meistens zeigt die Karte einen willensstarken, kompromisslosen Druck eines Partners auf den anderen. Es ist der Moment, in dem klar wird, dass 'es so nicht weitergehen kann' — etwas muss sich ändern, um die Beziehung zu bewahren und Enttäuschungen zu vermeiden.",
+        "pl": "Najczęściej karta wskazuje na siłową, bezkompromisową presję jednego partnera na drugiego. To moment, w którym staje się jasne, że 'tak dłużej być nie może' — trzeba coś zmienić, aby ocalić związek i uniknąć rozczarowania."
+      },
+      "file_id": "AgACAgIAAxkBAAIG5GgNLhN4Ol44GL-bYXH-rp6ZoDFTAAIh-TEbcI9pSI6hOa2u_MMOAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Королева Пентаклей",
+        "en": "Queen of Pentacles",
+        "de": "Königin der Münzen",
+        "pl": "Królowa Pentakli"
+      },
+      "description": {
+        "ru": "Для любых отношений, независимо от длительности, карта несет положительное значение. Она говорит о благоприятном времени для начала союза. Он будет крепким и доверительным. При правильном выборе линии поведения вероятен длительный союз или брак.",
+        "en": "For any relationship, regardless of its duration, the card carries a positive meaning. It indicates a favorable time to start a union. The relationship will be strong and based on trust. With the right approach, a long-lasting union or marriage is possible.",
+        "de": "Für jede Beziehung, unabhängig von ihrer Dauer, hat die Karte eine positive Bedeutung. Sie zeigt eine günstige Zeit für den Beginn einer Partnerschaft an. Die Beziehung wird stark und vertrauensvoll sein. Bei richtigem Verhalten ist eine langfristige Verbindung oder Ehe wahrscheinlich.",
+        "pl": "Dla każdego związku, niezależnie od jego długości, karta niesie pozytywne znaczenie. Wskazuje na sprzyjający czas na rozpoczęcie związku. Relacja będzie silna i oparta na zaufaniu. Przy właściwym podejściu możliwy jest trwały związek lub małżeństwo."
+      },
+      "file_id": "AgACAgIAAxkBAAIG5mgNLjl2S4KPq4joOrWMwmq4VxdDAAIk-TEbcI9pSIqH9MlgGtFBAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Король Пентаклей",
+        "en": "King of Pentacles",
+        "de": "König der Münzen",
+        "pl": "Król Pentakli"
+      },
+      "description": {
+        "ru": "Король Пентаклей означает скорое появление в жизни вопрошающей мужчины-покровителя. Это будет заботливый, серьезный, страстный, но сдержанный в повседневном общении человек. Такой мужчина ценит стабильность и будет требовать от своей избранницы верности. При этом властность его натуры может давать «побочный эффект» в виде проявлений ревности.",
+        "en": "The King of Pentacles signifies the imminent appearance of a male protector in the querent's life. He will be a caring, serious, passionate, yet reserved man in everyday interactions. Such a man values stability and will demand loyalty from his chosen one. However, the dominance of his nature may manifest as occasional jealousy.",
+        "de": "Der König der Münzen bedeutet das baldige Erscheinen eines männlichen Beschützers im Leben der Fragenden. Er wird ein fürsorglicher, ernsthafter, leidenschaftlicher, aber im Alltag zurückhaltender Mann sein. Ein solcher Mann schätzt Stabilität und wird Treue von seiner Auserwählten verlangen. Die Autorität seiner Natur kann jedoch gelegentlich zu Eifersucht führen.",
+        "pl": "Król Pentakli oznacza szybkie pojawienie się w życiu pytającej mężczyzny-opiekuna. Będzie to troskliwy, poważny, namiętny, ale powściągliwy w codziennej komunikacji człowiek. Taki mężczyzna ceni stabilność i będzie wymagał od swojej wybranki wierności. Jednak jego władcza natura może czasami objawiać się zazdrością."
+      },
+      "file_id": "AgACAgIAAxkBAAIF-WgNHvlLIbpnHwgO9L5vBbXypVKkAAJF-DEbcI9pSIi4_I6XRjCVAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Рыцарь Пентаклей",
+        "en": "Knight of Pentacles",
+        "de": "Ritter der Münzen",
+        "pl": "Rycerz Pentakli"
+      },
+      "description": {
+        "ru": "Упрямство прямого Рыцаря Монет основано на простом и косном понимании собственной выгоды. Он будет настаивать на движении по намеченному плану не потому, что увлечен или, напротив, раздражен, а оттого, что и товар хороший, и цена приятная. Как не взять. Интересы других людей, их чувства и обстоятельства при этом чаще всего не учитываются.",
+        "en": "The stubbornness of the upright Knight of Pentacles is based on a simple and rigid understanding of personal benefit. He insists on following the planned course not out of passion or irritation, but because the product is good and the price is right. Why not take it? The interests, feelings, and circumstances of others are often not taken into account.",
+        "de": "Die Sturheit des aufrechten Ritters der Münzen beruht auf einem einfachen und starren Verständnis des eigenen Vorteils. Er besteht auf der Einhaltung des geplanten Weges nicht aus Begeisterung oder Ärger, sondern weil die Ware gut und der Preis günstig ist. Warum also nicht zugreifen? Die Interessen, Gefühle und Umstände anderer Menschen werden dabei meist nicht berücksichtigt.",
+        "pl": "Upór prostego Rycerza Pentakli opiera się na prostym i sztywnym pojmowaniu własnych korzyści. Nalega na trzymanie się wyznaczonego planu nie z powodu pasji czy irytacji, ale dlatego, że towar jest dobry, a cena przystępna. Jak tu nie skorzystać? Interesy, uczucia i okoliczności innych osób są często pomijane."
+      },
+      "file_id": "AgACAgIAAxkBAAIF_WgNHvmJZOFHw6NLBwiTNdVAsQABAwACP_gxG3CPaUjEY0xc8pYBVwEAAwIAA3kAAzYE"
+    },
+    {
+      "name": {
+        "ru": "Паж Пентаклей",
+        "en": "Page of Pentacles",
+        "de": "Bube der Münzen",
+        "pl": "Paź Pentakli"
+      },
+      "description": {
+        "ru": "Все имеющиеся конфликты разрешатся в позитивном ключе, пара достигнет взаимного компромисса и согласия. Если супруги планируют детей, то Паж Пентаклей может сулить хорошую весть — вероятную беременность. Когда речь заходит о конкретном человеке в отношениях, то карта говорит о ранимой и слишком восприимчивой особе, которая замыкается в себе и не дает волю чувствам.",
+        "en": "All existing conflicts will be resolved positively, and the couple will reach mutual compromise and agreement. If the partners are planning to have children, the Page of Pentacles may herald good news — a possible pregnancy. When referring to a specific person in a relationship, the card describes a sensitive and overly vulnerable individual who tends to withdraw and suppress emotions.",
+        "de": "Alle bestehenden Konflikte werden positiv gelöst, und das Paar wird einen gegenseitigen Kompromiss und Einverständnis erreichen. Wenn Ehepartner Kinder planen, kann der Bube der Münzen eine gute Nachricht – eine mögliche Schwangerschaft – ankündigen. Bezieht sich die Karte auf eine bestimmte Person in der Beziehung, beschreibt sie eine sensible und überempfindliche Person, die sich in sich selbst zurückzieht und ihre Gefühle nicht zeigt.",
+        "pl": "Wszystkie istniejące konflikty zostaną rozwiązane w pozytywny sposób, a para osiągnie wzajemny kompromis i zgodę. Jeśli małżonkowie planują dzieci, Paź Pentakli może zwiastować dobrą wiadomość — prawdopodobną ciążę. Jeśli karta odnosi się do konkretnej osoby w związku, opisuje wrażliwą i zbyt podatną na zranienia osobę, która zamyka się w sobie i nie okazuje swoich uczuć."
+      },
+      "file_id": "AgACAgIAAxkBAAIF22gNHvPectJ7W3JSL38syJ_TKCaOAAIi-DEbcI9pSLTyUZZbgDvkAQADAgADeAADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Десятка Пентаклей",
+        "en": "Ten of Pentacles",
+        "de": "Zehn der Münzen",
+        "pl": "Dziesiątka Pentakli"
+      },
+      "description": {
+        "ru": "Несмотря на то что чаще всего Десятку Пентаклей трактуют как успех в материальном плане, выпадение этой карты на отношения тоже является отличным знаком, ведь она обозначает успешное построение крепкого любовного союза, гармонию и взаимопонимание, заключение брака.",
+        "en": "Although the Ten of Pentacles is often interpreted as success in material matters, its appearance in a relationship context is also an excellent sign, as it signifies the successful building of a strong, harmonious, and understanding union, often leading to marriage.",
+        "de": "Obwohl die Zehn der Münzen meist als Erfolg im materiellen Bereich interpretiert wird, ist ihr Erscheinen im Zusammenhang mit Beziehungen ebenfalls ein ausgezeichnetes Zeichen. Sie steht für den erfolgreichen Aufbau einer starken, harmonischen und verständnisvollen Partnerschaft, die oft in einer Ehe mündet.",
+        "pl": "Chociaż Dziesiątka Pentakli najczęściej interpretowana jest jako sukces w sprawach materialnych, jej pojawienie się w kontekście relacji również jest doskonałym znakiem, ponieważ oznacza udane budowanie silnego, harmonijnego i pełnego zrozumienia związku, często prowadzącego do małżeństwa."
+      },
+      "file_id": "AgACAgIAAxkBAAIGCWgNHws_oJS_dIakqIn48x6vPs2cAAJP-DEbcI9pSFGLnnkfQUWVAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Девятка Пентаклей",
+        "en": "Nine of Pentacles",
+        "de": "Neun der Münzen",
+        "pl": "Dziewiątka Pentakli"
+      },
+      "description": {
+        "ru": "Карта показывает, что человек находится в стабильных и гармоничных отношениях. Рядом с гадающим находится тот, которому можно доверять. Все стабильно, тепло и окутано любовью. Партнеры дарят друг другу уважение и поддержку, не игнорируют потребности и просьбы, а умеют слушать, договариваться и находить компромиссы.",
+        "en": "The card shows that the person is in a stable and harmonious relationship. Next to the querent is someone they can trust. Everything is stable, warm, and surrounded by love. Partners show each other respect and support, listen to needs and requests, and are able to negotiate and find compromises.",
+        "de": "Die Karte zeigt, dass die Person sich in einer stabilen und harmonischen Beziehung befindet. An der Seite des Fragenden steht jemand, dem man vertrauen kann. Alles ist stabil, warm und von Liebe umgeben. Partner schenken einander Respekt und Unterstützung, ignorieren Bedürfnisse und Bitten nicht, und können zuhören, verhandeln und Kompromisse finden.",
+        "pl": "Karta pokazuje, że osoba znajduje się w stabilnym i harmonijnym związku. Obok pytającego jest ktoś, komu można zaufać. Wszystko jest stabilne, ciepłe i otoczone miłością. Partnerzy obdarzają się nawzajem szacunkiem i wsparciem, nie ignorują potrzeb i próśb, umieją słuchać, negocjować i znajdować kompromisy."
+      },
+      "file_id": "AgACAgIAAxkBAAIF_2gNHvlzeDMaTU4Kv2al_n6BJZraAAJK-DEbcI9pSCsniRwQy6LSAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Восьмерка Пентаклей",
+        "en": "Eight of Pentacles",
+        "de": "Acht der Münzen",
+        "pl": "Ósemka Pentakli"
+      },
+      "description": {
+        "ru": "День пройдет благоприятно. Возможны хорошие новости в сфере финансов: неожиданное возвращение долгов или получение дополнительных денег. Также карта советует расслабиться и порадовать себя чем-то приятным. Вы это заслужили!",
+        "en": "The day will go favorably. Good news in the financial sphere is possible: an unexpected repayment of debts or receiving extra money. The card also advises to relax and treat yourself to something pleasant. You deserve it!",
+        "de": "Der Tag wird günstig verlaufen. Gute Nachrichten im Finanzbereich sind möglich: unerwartete Rückzahlung von Schulden oder zusätzliches Einkommen. Die Karte rät außerdem, sich zu entspannen und sich etwas Schönes zu gönnen. Das haben Sie sich verdient!",
+        "pl": "Dzień przebiegnie pomyślnie. Możliwe dobre wiadomości w sferze finansowej: niespodziewany zwrot długów lub dodatkowe pieniądze. Karta radzi także, aby się zrelaksować i sprawić sobie coś przyjemnego. Zasługujesz na to!"
+      },
+      "file_id": "AgACAgIAAxkBAAIG8mgNLx2rZFqsnEWCyGqNdHkpYNkHAAIp-TEbcI9pSMSmq2Vi_DX7AQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Семерка Пентаклей",
+        "en": "Seven of Pentacles",
+        "de": "Sieben der Münzen",
+        "pl": "Siódemka Pentakli"
+      },
+      "description": {
+        "ru": "Ничего легко даваться не будет, — говорит Семерка Пентаклей в прямом положении. Предстоит немало работы и усилий, чтобы добиться успеха и поощрения. Может даже показаться, что опускаются руки.",
+        "en": "Nothing will come easily, says the upright Seven of Pentacles. A lot of work and effort will be required to achieve success and rewards. There may even be moments when you feel like giving up.",
+        "de": "Nichts wird leicht fallen, sagt die aufrechte Sieben der Münzen. Es wird viel Arbeit und Mühe erforderlich sein, um Erfolg und Anerkennung zu erreichen. Es könnte sogar Momente geben, in denen man die Hoffnung verliert.",
+        "pl": "Nic nie przyjdzie łatwo, mówi Siódemka Pentakli w pozycji prostej. Czeka cię wiele pracy i wysiłku, aby osiągnąć sukces i uznanie. Może się nawet wydawać, że tracisz siły."
+      },
+      "file_id": "AgACAgIAAxkBAAIGBmgNHwvAS2jVQcxLEubysjtzQFuhAAI4-DEbcI9pSEUny2AROke6AQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Шестерка Пентаклей",
+        "en": "Six of Pentacles",
+        "de": "Sechs der Münzen",
+        "pl": "Szóstka Pentakli"
+      },
+      "description": {
+        "ru": "Аркан говорит об отличном здоровье и отменной работе всех процессов в организме. Для тех, кто болеет — это маяк, надежда на успешное выздоровление, которое уже в процессе, благодаря вовремя оказанному лечению.",
+        "en": "The Arcana speaks of excellent health and the proper functioning of all bodily processes. For those who are ill, it is a beacon of hope for successful recovery, already underway thanks to timely medical intervention.",
+        "de": "Die Arkana spricht von ausgezeichneter Gesundheit und einem einwandfreien Funktionieren aller Körperprozesse. Für diejenigen, die krank sind, ist sie ein Hoffnungsschimmer auf eine erfolgreiche Genesung, die dank rechtzeitiger Behandlung bereits im Gange ist.",
+        "pl": "Arkan mówi o doskonałym zdrowiu i prawidłowym funkcjonowaniu wszystkich procesów w organizmie. Dla chorych jest to latarnia nadziei na pomyślne wyzdrowienie, które jest już w toku dzięki szybkiemu leczeniu."
+      },
+      "file_id": "AgACAgIAAxkBAAIGCGgNHwsR3O3n0znJ7j6JX-If0o6kAAJM-DEbcI9pSFcQQ_AHP0hAAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Пятерка Пентаклей",
+        "en": "Five of Pentacles",
+        "de": "Fünf der Münzen",
+        "pl": "Piątka Pentakli"
+      },
+      "description": {
+        "ru": "Аркан может предупреждать о том, что вам нужно кардинально изменить свой образ жизни и подход к здоровью. Задумайтесь, давно ли вы сдавали анализы, есть ли у вас вредные привычки. Возможно, вас что-то беспокоит, и пора обратиться к врачу. Если плохое самочувствие связано с депрессией, унынием и упадком сил, займитесь своим ментальным здоровьем.",
+        "en": "The Arcana may warn that you need to radically change your lifestyle and approach to health. Consider when you last had tests done, and whether you have any bad habits. If something is troubling you, it may be time to consult a doctor. If your poor well-being is linked to depression, sadness, or a lack of energy, focus on your mental health.",
+        "de": "Die Arkana könnte darauf hinweisen, dass Sie Ihren Lebensstil und Ihren Umgang mit Ihrer Gesundheit grundlegend ändern müssen. Überlegen Sie, wann Sie zuletzt Tests gemacht haben, und ob Sie schlechte Gewohnheiten haben. Vielleicht beunruhigt Sie etwas, und es ist an der Zeit, einen Arzt aufzusuchen. Wenn Ihr Unwohlsein mit Depression, Traurigkeit oder Energiemangel zusammenhängt, kümmern Sie sich um Ihre mentale Gesundheit.",
+        "pl": "Arkan może ostrzegać, że musisz radykalnie zmienić swój styl życia i podejście do zdrowia. Zastanów się, kiedy ostatnio robiłeś badania i czy masz jakieś szkodliwe nawyki. Może coś cię niepokoi i czas udać się do lekarza. Jeśli złe samopoczucie wynika z depresji, smutku lub braku energii, zadbaj o swoje zdrowie psychiczne."
+      },
+      "file_id": "AgACAgIAAxkBAAIF7WgNHviOmE-Mhy9Y9dGwa8Iulg08AAI9-DEbcI9pSHr05CxZsznyAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Четверка Пентаклей",
+        "en": "Four of Pentacles",
+        "de": "Vier der Münzen",
+        "pl": "Czwórka Pentakli"
+      },
+      "description": {
+        "ru": "В целом Аркан говорит о нормальном состоянии здоровья, ремиссии после продолжительного заболевания. Однако она предупреждает, что хоть гадающий и работоспособен, но нужно поберечься и уделить внимание своему состоянию. Четверка Пентаклей призывает соблюдать баланс в удовольствиях и ограничениях, бережно относиться к эмоциональному и физическому здоровью. Возможно, стоит подумать о правильном питании и образе жизни.",
+        "en": "Overall, the Arcana speaks of normal health and remission after a prolonged illness. However, it warns that even though the querent is capable, it is important to take care and pay attention to one’s condition. The Four of Pentacles calls for maintaining balance between pleasures and restrictions, treating both emotional and physical health with care. It may be time to consider healthy eating and lifestyle changes.",
+        "de": "Insgesamt spricht die Arkana von einem normalen Gesundheitszustand und einer Remission nach einer langen Krankheit. Sie warnt jedoch, dass der Fragende, obwohl arbeitsfähig, auf seine Gesundheit achten sollte. Die Vier der Münzen fordert dazu auf, ein Gleichgewicht zwischen Vergnügungen und Einschränkungen zu wahren und sowohl körperliche als auch emotionale Gesundheit zu pflegen. Vielleicht ist es an der Zeit, über eine gesunde Ernährung und Lebensweise nachzudenken.",
+        "pl": "Ogólnie rzecz biorąc, Arkan mówi o normalnym stanie zdrowia i remisji po długotrwałej chorobie. Jednak ostrzega, że mimo zdolności do pracy należy uważać i zwracać uwagę na swoje zdrowie. Czwórka Pentakli wzywa do zachowania równowagi między przyjemnościami a ograniczeniami oraz do troski o zdrowie emocjonalne i fizyczne. Być może warto pomyśleć o zdrowym odżywianiu i stylu życia."
+      },
+      "file_id": "AgACAgIAAxkBAAIF8WgNHvjbFryk2zajWrcm3c4p5yyDAAJA-DEbcI9pSGgvInzTf8WSAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Тройка Пентаклей",
+        "en": "Three of Pentacles",
+        "de": "Drei der Münzen",
+        "pl": "Trójka Pentakli"
+      },
+      "description": {
+        "ru": "Прямая позиция Тройки Пентаклей предрекает плодотворный день и советует выложиться на полную. Важно вовремя определить выпавшие за день шансы, способные привести к успеху. Можно просить помощи единомышленников, тогда итог будет более результативным.\n\nА еще сейчас наиболее благоприятный период отпустить прошлое. Это могут быть как откровенные диалоги, так и смена опостылевшей работы. В любом случае откладывать на потом нецелесообразно: чем раньше свалится гора с плеч, тем скорее наступит чувство облегчения.",
+        "en": "The upright Three of Pentacles predicts a productive day and advises giving it your all. It is important to identify the opportunities that arise during the day, which can lead to success. Seeking help from like-minded individuals can yield even better results.\n\nNow is also the most favorable time to let go of the past. This could mean honest conversations or changing a tiresome job. In any case, postponing is not advisable: the sooner the burden is lifted, the sooner you will feel relief.",
+        "de": "Die aufrechte Drei der Münzen kündigt einen produktiven Tag an und rät, sich voll einzusetzen. Es ist wichtig, die Chancen, die sich im Laufe des Tages ergeben, rechtzeitig zu erkennen, um erfolgreich zu sein. Die Unterstützung von Gleichgesinnten kann das Ergebnis verbessern.\n\nJetzt ist auch die beste Zeit, die Vergangenheit loszulassen. Das kann ehrliche Gespräche oder den Wechsel eines lästigen Jobs bedeuten. In jedem Fall ist es nicht ratsam, dies aufzuschieben: Je früher die Last von den Schultern fällt, desto schneller stellt sich Erleichterung ein.",
+        "pl": "Prosta Trójka Pentakli zapowiada owocny dzień i radzi dać z siebie wszystko. Ważne jest, aby na czas dostrzec szanse, które mogą doprowadzić do sukcesu. Warto także poprosić o pomoc osoby o podobnych poglądach, aby osiągnąć lepsze rezultaty.\n\nObecnie jest też najbardziej sprzyjający czas, aby odpuścić przeszłość. Może to oznaczać szczere rozmowy lub zmianę znienawidzonej pracy. W każdym przypadku odkładanie tego na później nie jest wskazane: im szybciej ciężar spadnie z ramion, tym szybciej pojawi się uczucie ulgi."
+      },
+      "file_id": "AgACAgIAAxkBAAIG_GgNMC6q4e_pzevSbf_TEmZw2ERaAAI0-TEbcI9pSHiGeKJhey9rAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Двойка Пентаклей",
+        "en": "Two of Pentacles",
+        "de": "Zwei der Münzen",
+        "pl": "Dwójka Pentakli"
+      },
+      "description": {
+        "ru": "Вы отлично умеете находить баланс между своими потребностями и желаниями партнера. Поддержка в отношениях находится на высшем уровне, что способствует прочности и стабильности этой связи. Очень важно, что вы четко разграничиваете рабочие и иные сферы жизни с любовной. Поэтому не возникает ревности к друзьям/коллегам.\n\nДля одиноких людей Двойка Монет в раскладе на любовь выступает знаком того, что стоит присмотреться к окружающим: кто-то старается завоевать ваше внимание прямо сейчас.",
+        "en": "You are very good at finding a balance between your own needs and your partner's desires. Support in the relationship is at the highest level, contributing to the strength and stability of the bond. It is very important that you clearly separate work and other life areas from your love life. Thus, there is no jealousy towards friends or colleagues.\n\nFor single people, the Two of Pentacles in a love reading is a sign to pay attention to those around you: someone is trying to win your attention right now.",
+        "de": "Sie verstehen es hervorragend, ein Gleichgewicht zwischen Ihren eigenen Bedürfnissen und den Wünschen Ihres Partners zu finden. Die Unterstützung in der Beziehung ist auf höchstem Niveau, was zur Stärke und Stabilität der Verbindung beiträgt. Es ist sehr wichtig, dass Sie Arbeit und andere Lebensbereiche klar von Ihrem Liebesleben trennen. Daher entsteht keine Eifersucht auf Freunde oder Kollegen.\n\nFür Singles ist die Zwei der Münzen im Liebes-Tarot ein Zeichen, dass jemand in Ihrer Umgebung gerade versucht, Ihre Aufmerksamkeit zu gewinnen.",
+        "pl": "Doskonale potrafisz znaleźć równowagę między własnymi potrzebami a pragnieniami partnera. Wsparcie w związku jest na najwyższym poziomie, co przyczynia się do siły i stabilności tej relacji. Bardzo ważne jest, że wyraźnie oddzielasz pracę i inne sfery życia od życia miłosnego. Dlatego nie pojawia się zazdrość wobec przyjaciół lub współpracowników.\n\nDla osób samotnych Dwójka Pentakli w rozkładzie miłosnym jest znakiem, że warto zwrócić uwagę na otoczenie: ktoś stara się zdobyć twoje względy właśnie teraz."
+      },
+      "file_id": "AgACAgIAAxkBAAIGDmgNHwwbfoTknpO5-dCBTcJnbrTQAAJW-DEbcI9pSPYniwVSsj8JAQADAgADeQADNgQ"
+    },
+    {
+      "name": {
+        "ru": "Туз Пентаклей",
+        "en": "Ace of Pentacles",
+        "de": "Ass der Münzen",
+        "pl": "As Pentakli"
+      },
+      "description": {
+        "ru": "Если бы у вас был огород, на который с неба упал метеорит, и NASA выкупила бы ваши четыре сотки с домиком по цене Эрмитажа, это было бы лучшей иллюстрацией к тому, что имеет ввиду Туз Пентаклей, когда сообщает об удаче финансовой или иного рода. Удача Туза Пентаклей — это не просто приятная мелочь, а глобальное событие, которое повлияет на вашу жизнь.",
+        "en": "If you had a small garden and a meteorite fell on it, and NASA bought your four hundred square meters and a house for the price of the Hermitage, this would perfectly illustrate what the Ace of Pentacles means when it announces financial or other types of luck. The luck of the Ace of Pentacles is not just a pleasant trifle, but a major event that will influence your life.",
+        "de": "Wenn Sie einen kleinen Garten hätten und ein Meteorit darauf gefallen wäre, und die NASA Ihr Grundstück zum Preis der Eremitage gekauft hätte, dann wäre das die perfekte Illustration dessen, was das Ass der Münzen meint, wenn es von finanzieller oder anderweitiger Glück spricht. Das Glück des Asses der Münzen ist nicht nur eine kleine Freude, sondern ein großes Ereignis, das Ihr Leben beeinflussen wird.",
+        "pl": "Gdybyś miał mały ogród i spadłby na niego meteoryt, a NASA wykupiłaby twoje cztery ary z domkiem za cenę Ermitażu, byłaby to najlepsza ilustracja tego, co As Pentakli ma na myśli, ogłaszając szczęście finansowe lub innego rodzaju. Szczęście Asa Pentakli to nie tylko drobna przyjemność, ale wielkie wydarzenie, które wpłynie na twoje życie."
+      },
+      "file_id": "AgACAgIAAxkBAAIF6GgNHvjR5CjPb4vSEkKO6UylwuvPAAIt-DEbcI9pSCIOfZtluTYHAQADAgADeAADNgQ"
+    }
+  ]
+}

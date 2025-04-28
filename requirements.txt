@@ -1,1 +1,2 @@
-python_telegram_bot==20.3
+aiogram
+python-dotenv
